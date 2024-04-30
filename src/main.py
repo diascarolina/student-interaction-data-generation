@@ -9,12 +9,6 @@ random_seed = 456
 fake = Faker(locale='pt_BR')
 Faker.seed(random_seed)
 
-# Engagement level
-
-# 1: low
-# 2: average
-# 3: high
-
 
 class Student:
     def __init__(self, name, engagement_level):
@@ -200,7 +194,7 @@ class Simulation:
     def save_to_csv(self):
         df = pd.DataFrame(self.interaction_data)
         # df['duration'] = df['duration'].astype(str).map(lambda x: x[7:])
-        df.to_csv("interaction_data.csv", index=False)
+        df.to_csv("data/interaction_data.csv", index=False)
         # pd.set_option('expand_frame_repr', False)
         # print(df)
 
