@@ -11,27 +11,31 @@ Faker.seed(random_seed)
 
 
 class Student:
-    def __init__(self, name, engagement_level):
+    def __init__(self, name: str, engagement_level: int):
         self.name = name
         self.engagement_level = engagement_level
+
         self.current_room = None
         self.interaction_log = []
-        self.interaction_probability = 0  # Probability of interacting with an object
+        self.interaction_probability = 0
         self.movement_frequency = 0  # Time interval between moves
-        self.interaction_duration = 0  # Duration of interaction
-        self.num_interactions = 0  # Number of interactions
+        self.interaction_duration = 0
+        self.num_interactions = 0
         self.login_frequency = None
-        self.login_days = set()  # Track days the student logs in
-        self.timestamp = fake.date_time_between(start_date='-30d', end_date='now')
+        self.login_days = set()
+        self.timestamp = None
 
         self.user_data()
 
-    def calculate_login_days(self, simulation_start, total_days):
-        current_day = simulation_start
-        while current_day <= simulation_start + datetime.timedelta(days=total_days):
-            if random.randint(1, self.login_frequency) == 1:
-                self.login_days.add(current_day)
-            current_day += datetime.timedelta(days=1)
+    def calculate_login_days(self, simulation_start: datetime.datetime, total_days: int):
+        login_days = random.sample(range(total_days), total_days // 2)
+        for day in login_days:
+            login_time = fake.date_time_between_dates(
+                datetime.datetime.combine(simulation_start + datetime.timedelta(days=day),
+                                          datetime.time(0)),
+                datetime.datetime.combine(simulation_start + datetime.timedelta(days=day),
+                                          datetime.time(23, 59)))
+            self.login_days.add(login_time.strftime("%m/%d/%Y"))
 
     def user_data(self):
         # Customize user behavior based on engagement level
@@ -61,13 +65,11 @@ class Student:
                     seconds=random.randint(180, 300))  # Extended interactions
                 self.login_frequency = 2  # Log in every ~2 days
 
-    def move_and_interact(self, rooms, current_date):
-        self.move(rooms)
+    def move_and_interact(self, rooms):
         for _ in range(self.num_interactions):
-            if random.random() < self.interaction_probability:  # Check if user decides to interact
-                self.interact(current_date)
-            else:
+            if not self.current_room or random.random() > self.interaction_probability:
                 self.move(rooms)
+            self.interact()
 
     def move(self, rooms):
         previous_room = self.current_room
@@ -83,10 +85,11 @@ class Student:
             "room": self.current_room.name,
             "object": None,
             "duration": self.movement_frequency,
-            "details": f"Moved {f'from {previous_room.name} ' if previous_room else ''}to {self.current_room.name}"
+            "details": f"Moved {f'from {previous_room.name} ' if previous_room else ''}to"
+                       f" {self.current_room.name}"
         })
 
-    def interact(self, rooms):
+    def interact(self):
         if not self.current_room.objects:
             return
         obj = random.choice(self.current_room.objects)
@@ -123,7 +126,8 @@ class Simulation:
             self,
             num_users: int,
             rooms_and_objects: dict[str, list[str]],
-            duration,
+            duration: int,
+            start_date: str = "2024-01-01",
             generate_csv_file: bool = False):
         self.num_users = num_users
         self.rooms_and_objects = rooms_and_objects
@@ -133,20 +137,20 @@ class Simulation:
         self.rooms = []
         self.objects = []
         self.interaction_data = []
-        self.start_date = fake.date_time_between(start_date='-30d', end_date='now')
+        self.start_date = datetime.datetime.strptime(start_date, "%Y-%m-%d")
 
     def run_simulation(self):
         print("Starting simulation...")
         start_time = time.time()
         self.create_users()
         self.create_rooms_and_objects()
-        current_date = self.start_date
 
         for day in range(self.duration):
             current_date = self.start_date + datetime.timedelta(days=day)
             for user in self.users:
-                if current_date in user.login_days:
-                    user.move_and_interact(self.rooms, current_date)
+                user.timestamp = current_date
+                if current_date.strftime("%m/%d/%Y") in user.login_days:
+                    user.move_and_interact(self.rooms)
 
         self.collect_data()
         if self.generate_csv_file:
@@ -158,26 +162,23 @@ class Simulation:
         num_users_low_engagement = math.ceil(self.num_users * 0.06)
         num_users_average_engagement = math.ceil(self.num_users * 0.88)
         num_users_high_engagement = math.ceil(self.num_users * 0.06)
+        # num_users_low_engagement = 0
+        # num_users_average_engagement = 0
+        # num_users_high_engagement = 1
 
         for _ in range(num_users_low_engagement):
-            start_date = fake.date_time_between(start_date='-100d', end_date='now')
             new_user = Student(f"{fake.first_name()} {fake.last_name()}", 1)
-            # new_user.timestamp = start_date  # Assign the individual start date
-            new_user.calculate_login_days(start_date, self.duration)
+            new_user.calculate_login_days(self.start_date, self.duration)
             self.users.append(new_user)
 
         for _ in range(num_users_average_engagement):
-            start_date = fake.date_time_between(start_date='-100d', end_date='now')
             new_user = Student(f"{fake.first_name()} {fake.last_name()}", 2)
-            # new_user.timestamp = start_date  # Assign the individual start date
-            new_user.calculate_login_days(start_date, self.duration)
+            new_user.calculate_login_days(self.start_date, self.duration)
             self.users.append(new_user)
 
         for _ in range(num_users_high_engagement):
-            start_date = fake.date_time_between(start_date='-100d', end_date='now')
             new_user = Student(f"{fake.first_name()} {fake.last_name()}", 3)
-            # new_user.timestamp = start_date  # Assign the individual start date
-            new_user.calculate_login_days(start_date, self.duration)
+            new_user.calculate_login_days(self.start_date, self.duration)
             self.users.append(new_user)
 
     def create_rooms_and_objects(self):
@@ -193,7 +194,7 @@ class Simulation:
 
     def save_to_csv(self):
         df = pd.DataFrame(self.interaction_data)
-        # df['duration'] = df['duration'].astype(str).map(lambda x: x[7:])
+        df['duration'] = df['duration'].astype(str).map(lambda x: x[7:])
         df.to_csv("data/interaction_data.csv", index=False)
         # pd.set_option('expand_frame_repr', False)
         # print(df)
@@ -211,5 +212,6 @@ if __name__ == "__main__":
     sim = Simulation(num_users=3*36,
                      rooms_and_objects=rooms_and_objects_dict,
                      duration=100,  # semestre
+                     start_date="2024-01-01",
                      generate_csv_file=True)
     sim.run_simulation()
