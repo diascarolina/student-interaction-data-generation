@@ -196,22 +196,18 @@ class Simulation:
         df = pd.DataFrame(self.interaction_data)
         df['duration'] = df['duration'].astype(str).map(lambda x: x[7:])
         df.to_csv("data/interaction_data.csv", index=False)
-        # pd.set_option('expand_frame_repr', False)
-        # print(df)
 
 
 if __name__ == "__main__":
     rooms_and_objects_dict = {
-        "Classroom": ["Desk", "Chair", "Book", "Computer"],
-        "Auditorium": ["Chair", "Screen"],
-        "Library": ["Book", "Computer"],
-        "Laboratory": ["Microscope", "Computer"],
-        # add café
+        "Classroom": ["Desk", "Chair1", "Book", "Computer"],
+        "Auditorium": ["Chair2", "Screen", "Hand"],
+        "Café": ["Chair3", "Student", "Table"],
     }
 
     sim = Simulation(num_users=3*36,
                      rooms_and_objects=rooms_and_objects_dict,
-                     duration=100,  # semestre
+                     duration=200,  # ano letivo
                      start_date="2024-01-01",
                      generate_csv_file=True)
     sim.run_simulation()
