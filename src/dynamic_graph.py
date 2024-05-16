@@ -1,3 +1,5 @@
+import datetime
+
 import dynetx as dn
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -24,6 +26,9 @@ for index, row in selected_user_df.iterrows():
     obj = row['object']
     activity = row['activity_type']
     timestamp = row['timestamp']
+    timestamp = int(timestamp.timestamp())
+    timestamp_end = int(
+        (row['timestamp'].timestamp() + pd.to_datetime(row['duration']).timestamp()))
 
     # Add nodes (you might want to manage nodes dynamically as well)
     DG.add_node(person)
@@ -33,13 +38,13 @@ for index, row in selected_user_df.iterrows():
 
     # Add edges with the time as an interval (here using the same time for start and end for simplicity)
     if activity == 'movement':
-        DG.add_interaction(person, room, t_from=timestamp, t_to=timestamp)
+        DG.add_interaction(person, room, t=timestamp, e=timestamp_end)
     elif activity == 'interaction':
-        DG.add_interaction(room, obj, t_from=timestamp, t_to=timestamp)
+        DG.add_interaction(room, obj, t=timestamp, e=timestamp_end)
 
 # For visualization, extract a static snapshot at a specific time
-snapshot_time = pd.to_datetime('2024-01-01 00:06:04')
-G_snapshot = DG.interactions_at(snapshot_time)
+snapshot_time = int(pd.to_datetime('2024-01-01 00:06:04').timestamp())
+G_snapshot = DG.interactions(snapshot_time)
 
 # Draw the snapshot
 plt.figure(figsize=(12, 8))
