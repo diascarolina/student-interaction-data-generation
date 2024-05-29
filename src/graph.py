@@ -9,7 +9,7 @@ csv_data = "../data/interaction_data.csv"
 df = pd.read_csv(csv_data)
 
 # Replace 'desired_username' with the username you want to select
-desired_username = 'Manuella Martins'
+desired_username = 'João Vitor Sousa'
 selected_user_df = df[df['username'] == desired_username]
 
 # Creating the graph
@@ -44,5 +44,6 @@ nx.draw(G, pos, with_labels=True, node_color='skyblue', node_size=2000, edge_col
         linewidths=1, font_size=10)
 nx.draw_networkx_edge_labels(G, pos, edge_labels=nx.get_edge_attributes(G, 'detail'),
                              font_color='red')
-plt.title(f'Knowledge Graph of {desired_username} Activities')
+# plt.title(f'Knowledge Graph of {desired_username} Activities')
+plt.savefig('../images/student_graph.png', dpi=400)
 plt.show()

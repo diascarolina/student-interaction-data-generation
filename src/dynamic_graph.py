@@ -13,7 +13,7 @@ df = pd.read_csv(csv_data)
 df['timestamp'] = pd.to_datetime(df['timestamp'])
 
 # Filter for a specific username
-desired_username = 'Manuella Martins'
+desired_username = 'João Vitor Sousa'
 selected_user_df = df[df['username'] == desired_username]
 
 # Create the dynamic graph
