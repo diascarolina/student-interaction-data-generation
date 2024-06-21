@@ -103,6 +103,7 @@ class Student:
             "details": f"Interacted with {obj.name}"
         })
 
+
 class Object:
     def __init__(self, name: str):
         self.name = name
@@ -125,7 +126,8 @@ class Simulation:
             rooms_and_objects: dict[str, list[str]],
             duration: int,
             start_date: str = "2024-01-01",
-            generate_csv_file: bool = False):
+            generate_csv_file: bool = False,
+            df_path: str = None):
         self.num_users = num_users
         self.rooms_and_objects = rooms_and_objects
         self.duration = duration
@@ -135,6 +137,7 @@ class Simulation:
         self.objects = []
         self.interaction_data = []
         self.start_date = datetime.datetime.strptime(start_date, "%Y-%m-%d")
+        self.df_path = df_path
 
     def run_simulation(self):
         print("Starting simulation...")
@@ -189,7 +192,10 @@ class Simulation:
     def save_to_csv(self):
         df = pd.DataFrame(self.interaction_data)
         df['duration'] = df['duration'].astype(str).map(lambda x: x[7:])
-        df.to_csv("data/interaction_data.csv", index=False)
+        if not self.df_path:
+            date = datetime.datetime.now().strftime("%Y_%m_%d-%H_%M_%S")
+            df_path = f"../data/simulation_data_{date}.csv"
+        df.to_csv(self.df_path, index=False)
 
 
 if __name__ == "__main__":

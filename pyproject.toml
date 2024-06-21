@@ -16,6 +16,7 @@ pygame = "^2.5.2"
 scikit-learn = "^1.4.2"
 dynetx = "^0.3.2"
 seaborn = "^0.13.2"
+streamlit = "^1.36.0"
 
 
 [build-system]

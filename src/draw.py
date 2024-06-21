@@ -21,6 +21,7 @@ YELLOW = (255, 255, 0)
 fake = Faker(locale='pt_BR')
 Faker.seed(456)
 
+
 class Object:
     def __init__(self, name, position):
         self.name = name
@@ -32,6 +33,7 @@ class Object:
             (self.position[0] - 10, self.position[1] + 10),
             (self.position[0] + 10, self.position[1] + 10)
         ])
+
 
 class Student:
     def __init__(self, name, color, room):
@@ -51,6 +53,7 @@ class Student:
 
     def draw(self):
         pygame.draw.circle(screen, self.color, (int(self.x), int(self.y)), 10)
+
 
 class Room:
     def __init__(self, name, rect, objects):
@@ -73,6 +76,7 @@ class Room:
             random.randint(self.rect.left + 10, self.rect.right - 10),
             random.randint(self.rect.top + 10, self.rect.bottom - 10)
         )
+
 
 def main():
     running = True
@@ -120,6 +124,7 @@ def main():
         clock.tick(60)
 
     pygame.quit()
+
 
 if __name__ == "__main__":
     main()

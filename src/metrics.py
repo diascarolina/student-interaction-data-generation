@@ -65,23 +65,37 @@ class Metrics:
         return dataframe
 
 
-if __name__ == "__main__":
-    interaction_data = pd.read_csv('../data/interaction_data.csv')
+def run_metrics(
+        simulation_df_name: str,
+        rooms_and_objects: dict[str, list[str]],
+        weights=None,
+) -> pd.DataFrame:
 
+    if weights is None:
+        weights = {'time': 0.25, 'frequency': 0.25, 'diversity': 0.25, 'depth': 0.25}
+
+    interaction_df = pd.read_csv(f'../data/{simulation_df_name}.csv')
+
+    total_objects = [obj_name for sublist in rooms_and_objects.values() for obj_name in sublist]
+
+    metrics = Metrics(data=interaction_df, weights=weights, total_objects=total_objects)
+
+    results_df = metrics.calculate_per_user()
+    normalised_results = metrics.normalise(results_df)
+    normalised_results.to_csv(f'../data/metrics_{simulation_df_name}.csv', index=False)
+
+    return normalised_results
+
+
+if __name__ == "__main__":
     rooms_and_objects_dict = {
         "Classroom": ["Desk", "Chair1", "Book", "Computer"],
         "Auditorium": ["Chair2", "Screen", "Hand"],
         "Café": ["Chair3", "Student", "Table"],
     }
-    objects = [obj_name for sublist in rooms_and_objects_dict.values() for obj_name in sublist]
 
-    metric_weights = {'time': 0.25, 'frequency': 0.25, 'diversity': 0.25, 'depth': 0.25}
-
-    metrics = Metrics(data=interaction_data, weights=metric_weights, total_objects=objects)
-
-    results_df = metrics.calculate_per_user()
-    normalised_results = metrics.normalise(results_df)
-
-    normalised_results.to_csv('../data/normalised_results.csv', index=False)
-
-    print(normalised_results)
+    df = run_metrics(
+        simulation_df_name="interaction_data",
+        rooms_and_objects=rooms_and_objects_dict,
+        weights={'time': 0.25, 'frequency': 0.25, 'diversity': 0.25, 'depth': 0.25}
+        )

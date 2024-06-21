@@ -36,7 +36,8 @@ for index, row in selected_user_df.iterrows():
     if pd.notna(obj):
         DG.add_node(obj)
 
-    # Add edges with the time as an interval (here using the same time for start and end for simplicity)
+    # Add edges with the time as an interval
+    # (here using the same time for start and end for simplicity)
     if activity == 'movement':
         DG.add_interaction(person, room, t=timestamp, e=timestamp_end)
     elif activity == 'interaction':
