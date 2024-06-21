@@ -1,6 +1,7 @@
+import datetime
+import os
 import pandas as pd
 import streamlit as st
-import datetime
 
 from correlation import Analysis
 from main import Simulation
@@ -11,6 +12,10 @@ rooms_and_objects = {
     "Auditorium": ["Chair1", "Screen", "Hand"],
     "Café": ["Chair2", "Student", "Table"],
 }
+
+directory_path = "../data"
+if not os.path.exists(directory_path):
+    os.makedirs(directory_path)
 
 
 def main():
@@ -45,7 +50,7 @@ def main():
             "script.")
 
     df_name = f"simulation_data_{num_users}u_{duration}d"
-    df_path = f"../data/{df_name}.csv"
+    df_path = f"{directory_path}/{df_name}.csv"
     df_path_metrics = f"../data/metrics_{df_name}.csv"
 
     if st.button(":white[:arrow_forward: Run Simulation, Metrics and Analysis]", type="primary"):
