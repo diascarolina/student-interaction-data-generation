@@ -56,6 +56,10 @@ class Analysis:
         legend.get_frame().set_alpha(0.5)
         sns.despine(left=True, bottom=True)
 
+        # ax = plt.gca()
+        # ax.set_facecolor('#fff1e8')
+        # plt.rcParams['figure.facecolor'] = '#FFFFFF'
+
         plt.tight_layout()
         # plt.savefig('../images/engagement_scores_plot.png', dpi=300)
         if st:

@@ -19,10 +19,23 @@ if not os.path.exists(directory_path):
 
 
 def main():
-    st.sidebar.title("Simulation Parameters")
+    st.set_page_config(page_title="IVLE-Sim",
+                       page_icon=":material/robot_2:",
+                       initial_sidebar_state="expanded",
+                       menu_items={
+                           "Get Help": "https://github.com/diascarolina",
+                           "Report a bug": "https://github.com/diascarolina",
+                           "About": "IVLE-Sim: Immersive Virtual Learning Environment Simulation"
+                       })
+    st.title("IVLE-Sim: Immersive Virtual Learning Environment Simulation")
+    "---"
+
+    st.sidebar.title("IVLE-Sim")
+    st.sidebar.header("Simulation Parameters")
 
     st.sidebar.write(
-        "Please select the number of students, the duration of the simulation and the start date.")
+        "Please select the number of students, the duration of the simulation and the start date."
+    )
 
     num_users = st.sidebar.number_input(label="Number of Students",
                                         min_value=1,
@@ -35,9 +48,6 @@ def main():
                                        step=10)
 
     start_date = st.sidebar.date_input("Start Date", datetime.date(2024, 1, 1))
-
-    st.title("Virtual Learning Environment Simulation")
-    "---"
 
     """This is a simulation of student interactions in a virtual environment.
     The simulation generates a CSV file with the interactions of each student. 
@@ -53,8 +63,9 @@ def main():
     df_path = f"{directory_path}/{df_name}.csv"
     df_path_metrics = f"../data/metrics_{df_name}.csv"
 
-    if st.button(":white[:arrow_forward: Run Simulation, Metrics and Analysis]", type="primary"):
+    if st.button(":arrow_forward: Run Simulation, Metrics and Analysis", type="primary"):
         with st.spinner('Running Simulation and Results...'):
+            st.header("#")
             st.header("Simulation Results")
             sim = Simulation(num_users=num_users,
                              rooms_and_objects=rooms_and_objects,
@@ -62,22 +73,21 @@ def main():
                              start_date=start_date.strftime("%Y-%m-%d"),
                              generate_csv_file=True,
                              df_path=df_path)
-
             sim.run_simulation()
-
             df = pd.read_csv(df_path)
             st.dataframe(df)
             st.success("Simulation completed and CSV file generated!", icon="✅")
 
+            st.header("#")
             st.header("Calculated Metrics")
             metrics = run_metrics(simulation_df_name=df_name,
                                   rooms_and_objects=rooms_and_objects,
                                   weights=None)
 
             st.dataframe(metrics)
-
             st.success("Metrics calculated and CSV file generated!!", icon="✅")
 
+            st.header("#")
             st.header("Correlation Analysis")
             analysis = Analysis(df_path_metrics)
             analysis_dict = analysis.anova()
@@ -90,6 +100,7 @@ def main():
                         help="The smaller the P-Value, the more significant the correlation.")
             st.success("Correlation analysis completed!", icon="✅")
 
+            st.header("#")
             st.header("Engagement Scores by Engagement Levels")
             fig = analysis.plot_kde(st=True)
             st.pyplot(fig)
@@ -99,8 +110,7 @@ def main():
     st.sidebar.text("Created by Carolina Dias, 2024")
     st.sidebar.markdown(
         """<a href="https://github.com/diascarolina/student-interaction-data-generation">
-        <img src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github
-        &logoColor=white">
+        <img src="https://img.shields.io/badge/GitHub-100000?style=flat-square&logo=github&logoColor=white">
         </a>""",
         unsafe_allow_html=True,
     )
