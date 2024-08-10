@@ -1,0 +1,3464 @@
+@prefix : <http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia3/> .
+@prefix ex: <http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia3#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia3> a owl:Ontology .
+
+ex:Alexandre_da_Luz a ex:Student ;
+    ex:has_action ex:action_0,
+        ex:action_1,
+        ex:action_10,
+        ex:action_11,
+        ex:action_12,
+        ex:action_13,
+        ex:action_14,
+        ex:action_15,
+        ex:action_16,
+        ex:action_17,
+        ex:action_18,
+        ex:action_19,
+        ex:action_2,
+        ex:action_20,
+        ex:action_21,
+        ex:action_3,
+        ex:action_4,
+        ex:action_5,
+        ex:action_6,
+        ex:action_7,
+        ex:action_8,
+        ex:action_9 ;
+    ex:id "Alexandre da Luz"^^xsd:string .
+
+ex:Fernanda_Sales a ex:Student ;
+    ex:has_action ex:action_472,
+        ex:action_473,
+        ex:action_474,
+        ex:action_475,
+        ex:action_476,
+        ex:action_477,
+        ex:action_478,
+        ex:action_479,
+        ex:action_480,
+        ex:action_481,
+        ex:action_482,
+        ex:action_483,
+        ex:action_484,
+        ex:action_485,
+        ex:action_486,
+        ex:action_487,
+        ex:action_488,
+        ex:action_489,
+        ex:action_490,
+        ex:action_491,
+        ex:action_492,
+        ex:action_493,
+        ex:action_494,
+        ex:action_495,
+        ex:action_496,
+        ex:action_497,
+        ex:action_498,
+        ex:action_499,
+        ex:action_500,
+        ex:action_501,
+        ex:action_502,
+        ex:action_503,
+        ex:action_504,
+        ex:action_505,
+        ex:action_506,
+        ex:action_507,
+        ex:action_508,
+        ex:action_509,
+        ex:action_510,
+        ex:action_511,
+        ex:action_512,
+        ex:action_513,
+        ex:action_514,
+        ex:action_515,
+        ex:action_516,
+        ex:action_517,
+        ex:action_518,
+        ex:action_519,
+        ex:action_520,
+        ex:action_521,
+        ex:action_522,
+        ex:action_523,
+        ex:action_524,
+        ex:action_525,
+        ex:action_526,
+        ex:action_527,
+        ex:action_528,
+        ex:action_529,
+        ex:action_530,
+        ex:action_531,
+        ex:action_532,
+        ex:action_533,
+        ex:action_534,
+        ex:action_535,
+        ex:action_536,
+        ex:action_537,
+        ex:action_538,
+        ex:action_539,
+        ex:action_540,
+        ex:action_541,
+        ex:action_542,
+        ex:action_543,
+        ex:action_544,
+        ex:action_545,
+        ex:action_546,
+        ex:action_547,
+        ex:action_548,
+        ex:action_549,
+        ex:action_550 ;
+    ex:id "Fernanda Sales"^^xsd:string .
+
+ex:Isabelly_Gonçalves a ex:Student ;
+    ex:has_action ex:action_100,
+        ex:action_101,
+        ex:action_102,
+        ex:action_103,
+        ex:action_104,
+        ex:action_105,
+        ex:action_106,
+        ex:action_107,
+        ex:action_108,
+        ex:action_109,
+        ex:action_110,
+        ex:action_111,
+        ex:action_112,
+        ex:action_113,
+        ex:action_114,
+        ex:action_115,
+        ex:action_116,
+        ex:action_117,
+        ex:action_118,
+        ex:action_119,
+        ex:action_120,
+        ex:action_121,
+        ex:action_122,
+        ex:action_123,
+        ex:action_124,
+        ex:action_125,
+        ex:action_126,
+        ex:action_127,
+        ex:action_128,
+        ex:action_129,
+        ex:action_130,
+        ex:action_131,
+        ex:action_132,
+        ex:action_133,
+        ex:action_134,
+        ex:action_135,
+        ex:action_136,
+        ex:action_137,
+        ex:action_138,
+        ex:action_139,
+        ex:action_140,
+        ex:action_141,
+        ex:action_142,
+        ex:action_143,
+        ex:action_144,
+        ex:action_145,
+        ex:action_146,
+        ex:action_147,
+        ex:action_148,
+        ex:action_149,
+        ex:action_150,
+        ex:action_151,
+        ex:action_152,
+        ex:action_153,
+        ex:action_154,
+        ex:action_155,
+        ex:action_156,
+        ex:action_157,
+        ex:action_158,
+        ex:action_159,
+        ex:action_160,
+        ex:action_161,
+        ex:action_162,
+        ex:action_163,
+        ex:action_164,
+        ex:action_165,
+        ex:action_166,
+        ex:action_167,
+        ex:action_168,
+        ex:action_169,
+        ex:action_170,
+        ex:action_171,
+        ex:action_172,
+        ex:action_173,
+        ex:action_174,
+        ex:action_175,
+        ex:action_176,
+        ex:action_177,
+        ex:action_178,
+        ex:action_179,
+        ex:action_180,
+        ex:action_181,
+        ex:action_182,
+        ex:action_183,
+        ex:action_184,
+        ex:action_185,
+        ex:action_186,
+        ex:action_187,
+        ex:action_188,
+        ex:action_189,
+        ex:action_190,
+        ex:action_191,
+        ex:action_192,
+        ex:action_193,
+        ex:action_194,
+        ex:action_195,
+        ex:action_196,
+        ex:action_197,
+        ex:action_198,
+        ex:action_199,
+        ex:action_200,
+        ex:action_201,
+        ex:action_202,
+        ex:action_203,
+        ex:action_204,
+        ex:action_205,
+        ex:action_206,
+        ex:action_207,
+        ex:action_208,
+        ex:action_209,
+        ex:action_210,
+        ex:action_211,
+        ex:action_212,
+        ex:action_213,
+        ex:action_214,
+        ex:action_215,
+        ex:action_216,
+        ex:action_217,
+        ex:action_218,
+        ex:action_219,
+        ex:action_22,
+        ex:action_220,
+        ex:action_221,
+        ex:action_222,
+        ex:action_223,
+        ex:action_224,
+        ex:action_225,
+        ex:action_226,
+        ex:action_227,
+        ex:action_228,
+        ex:action_229,
+        ex:action_23,
+        ex:action_230,
+        ex:action_231,
+        ex:action_232,
+        ex:action_233,
+        ex:action_234,
+        ex:action_235,
+        ex:action_236,
+        ex:action_237,
+        ex:action_238,
+        ex:action_239,
+        ex:action_24,
+        ex:action_240,
+        ex:action_241,
+        ex:action_242,
+        ex:action_243,
+        ex:action_244,
+        ex:action_245,
+        ex:action_246,
+        ex:action_247,
+        ex:action_248,
+        ex:action_249,
+        ex:action_25,
+        ex:action_250,
+        ex:action_251,
+        ex:action_252,
+        ex:action_253,
+        ex:action_254,
+        ex:action_255,
+        ex:action_256,
+        ex:action_257,
+        ex:action_258,
+        ex:action_259,
+        ex:action_26,
+        ex:action_260,
+        ex:action_261,
+        ex:action_262,
+        ex:action_263,
+        ex:action_264,
+        ex:action_27,
+        ex:action_28,
+        ex:action_29,
+        ex:action_30,
+        ex:action_31,
+        ex:action_32,
+        ex:action_33,
+        ex:action_34,
+        ex:action_35,
+        ex:action_36,
+        ex:action_37,
+        ex:action_38,
+        ex:action_39,
+        ex:action_40,
+        ex:action_41,
+        ex:action_42,
+        ex:action_43,
+        ex:action_44,
+        ex:action_45,
+        ex:action_46,
+        ex:action_47,
+        ex:action_48,
+        ex:action_49,
+        ex:action_50,
+        ex:action_51,
+        ex:action_52,
+        ex:action_53,
+        ex:action_54,
+        ex:action_55,
+        ex:action_56,
+        ex:action_57,
+        ex:action_58,
+        ex:action_59,
+        ex:action_60,
+        ex:action_61,
+        ex:action_62,
+        ex:action_63,
+        ex:action_64,
+        ex:action_65,
+        ex:action_66,
+        ex:action_67,
+        ex:action_68,
+        ex:action_69,
+        ex:action_70,
+        ex:action_71,
+        ex:action_72,
+        ex:action_73,
+        ex:action_74,
+        ex:action_75,
+        ex:action_76,
+        ex:action_77,
+        ex:action_78,
+        ex:action_79,
+        ex:action_80,
+        ex:action_81,
+        ex:action_82,
+        ex:action_83,
+        ex:action_84,
+        ex:action_85,
+        ex:action_86,
+        ex:action_87,
+        ex:action_88,
+        ex:action_89,
+        ex:action_90,
+        ex:action_91,
+        ex:action_92,
+        ex:action_93,
+        ex:action_94,
+        ex:action_95,
+        ex:action_96,
+        ex:action_97,
+        ex:action_98,
+        ex:action_99 ;
+    ex:id "Isabelly Gonçalves"^^xsd:string .
+
+ex:Maria_Júlia_Silveira a ex:Student ;
+    ex:has_action ex:action_265,
+        ex:action_266,
+        ex:action_267,
+        ex:action_268,
+        ex:action_269,
+        ex:action_270,
+        ex:action_271,
+        ex:action_272,
+        ex:action_273,
+        ex:action_274,
+        ex:action_275,
+        ex:action_276,
+        ex:action_277,
+        ex:action_278,
+        ex:action_279,
+        ex:action_280,
+        ex:action_281,
+        ex:action_282,
+        ex:action_283,
+        ex:action_284,
+        ex:action_285,
+        ex:action_286,
+        ex:action_287,
+        ex:action_288,
+        ex:action_289,
+        ex:action_290,
+        ex:action_291,
+        ex:action_292,
+        ex:action_293,
+        ex:action_294,
+        ex:action_295,
+        ex:action_296,
+        ex:action_297,
+        ex:action_298,
+        ex:action_299,
+        ex:action_300,
+        ex:action_301,
+        ex:action_302,
+        ex:action_303,
+        ex:action_304,
+        ex:action_305,
+        ex:action_306,
+        ex:action_307,
+        ex:action_308,
+        ex:action_309,
+        ex:action_310,
+        ex:action_311,
+        ex:action_312,
+        ex:action_313,
+        ex:action_314,
+        ex:action_315,
+        ex:action_316,
+        ex:action_317,
+        ex:action_318,
+        ex:action_319,
+        ex:action_320,
+        ex:action_321,
+        ex:action_322,
+        ex:action_323,
+        ex:action_324,
+        ex:action_325,
+        ex:action_326,
+        ex:action_327,
+        ex:action_328,
+        ex:action_329,
+        ex:action_330,
+        ex:action_331,
+        ex:action_332,
+        ex:action_333,
+        ex:action_334,
+        ex:action_335,
+        ex:action_336,
+        ex:action_337,
+        ex:action_338,
+        ex:action_339,
+        ex:action_340,
+        ex:action_341,
+        ex:action_342,
+        ex:action_343,
+        ex:action_344,
+        ex:action_345,
+        ex:action_346,
+        ex:action_347,
+        ex:action_348,
+        ex:action_349,
+        ex:action_350,
+        ex:action_351,
+        ex:action_352,
+        ex:action_353,
+        ex:action_354,
+        ex:action_355,
+        ex:action_356,
+        ex:action_357,
+        ex:action_358,
+        ex:action_359,
+        ex:action_360,
+        ex:action_361,
+        ex:action_362,
+        ex:action_363,
+        ex:action_364,
+        ex:action_365,
+        ex:action_366,
+        ex:action_367,
+        ex:action_368,
+        ex:action_369,
+        ex:action_370,
+        ex:action_371,
+        ex:action_372,
+        ex:action_373,
+        ex:action_374,
+        ex:action_375,
+        ex:action_376,
+        ex:action_377,
+        ex:action_378,
+        ex:action_379,
+        ex:action_380,
+        ex:action_381,
+        ex:action_382,
+        ex:action_383,
+        ex:action_384,
+        ex:action_385,
+        ex:action_386,
+        ex:action_387,
+        ex:action_388,
+        ex:action_389,
+        ex:action_390,
+        ex:action_391,
+        ex:action_392,
+        ex:action_393,
+        ex:action_394,
+        ex:action_395,
+        ex:action_396,
+        ex:action_397,
+        ex:action_398,
+        ex:action_399,
+        ex:action_400,
+        ex:action_401,
+        ex:action_402,
+        ex:action_403,
+        ex:action_404,
+        ex:action_405,
+        ex:action_406,
+        ex:action_407,
+        ex:action_408,
+        ex:action_409,
+        ex:action_410,
+        ex:action_411,
+        ex:action_412,
+        ex:action_413,
+        ex:action_414,
+        ex:action_415,
+        ex:action_416,
+        ex:action_417,
+        ex:action_418,
+        ex:action_419,
+        ex:action_420,
+        ex:action_421,
+        ex:action_422,
+        ex:action_423,
+        ex:action_424,
+        ex:action_425,
+        ex:action_426,
+        ex:action_427,
+        ex:action_428,
+        ex:action_429,
+        ex:action_430,
+        ex:action_431,
+        ex:action_432,
+        ex:action_433,
+        ex:action_434,
+        ex:action_435,
+        ex:action_436,
+        ex:action_437,
+        ex:action_438,
+        ex:action_439,
+        ex:action_440,
+        ex:action_441,
+        ex:action_442,
+        ex:action_443,
+        ex:action_444,
+        ex:action_445,
+        ex:action_446,
+        ex:action_447,
+        ex:action_448,
+        ex:action_449,
+        ex:action_450,
+        ex:action_451,
+        ex:action_452,
+        ex:action_453,
+        ex:action_454,
+        ex:action_455,
+        ex:action_456,
+        ex:action_457,
+        ex:action_458,
+        ex:action_459,
+        ex:action_460,
+        ex:action_461,
+        ex:action_462,
+        ex:action_463,
+        ex:action_464,
+        ex:action_465,
+        ex:action_466,
+        ex:action_467,
+        ex:action_468,
+        ex:action_469,
+        ex:action_470,
+        ex:action_471 ;
+    ex:id "Maria Júlia Silveira"^^xsd:string .
+
+:Student a owl:Class ;
+    rdfs:subClassOf :User ;
+    owl:disjointWith :Teacher .
+
+:actionEndTime a owl:DatatypeProperty ;
+    rdfs:domain :User ;
+    rdfs:range xsd:dateTime .
+
+:actionStartTime a owl:DatatypeProperty ;
+    rdfs:domain :User ;
+    rdfs:range xsd:dateTime .
+
+:collectiveRoom a owl:Class ;
+    rdfs:subClassOf :Room ;
+    owl:disjointWith :individualRoom .
+
+:contains a owl:ObjectProperty ;
+    rdfs:domain :Room ;
+    rdfs:range :Object,
+        :User ;
+    owl:inverseOf :is_in .
+
+:description a owl:DatatypeProperty ;
+    rdfs:domain :Object,
+        :Room,
+        :User ;
+    rdfs:range xsd:string .
+
+:has_action a owl:ObjectProperty ;
+    rdfs:domain :User ;
+    rdfs:range :Action .
+
+:has_object a owl:ObjectProperty ;
+    rdfs:domain :Interaction ;
+    rdfs:range :interactableObject .
+
+:has_room a owl:ObjectProperty ;
+    rdfs:domain :Movement ;
+    rdfs:range :Room .
+
+:id a owl:DatatypeProperty ;
+    rdfs:domain :Object,
+        :Room,
+        :User ;
+    rdfs:range xsd:string .
+
+:interacts_with a owl:ObjectProperty ;
+    rdfs:domain :User ;
+    rdfs:range :User,
+        :interactableObject ;
+    rdfs:subPropertyOf owl:topObjectProperty .
+
+:moves_to a owl:ObjectProperty ;
+    rdfs:domain :User ;
+    rdfs:range :Room .
+
+ex:action_0 a ex:Movement ;
+    ex:actionEndTime "2024-01-01T00:06:18"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-01T00:03:09"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_1 a ex:Interaction ;
+    ex:actionEndTime "2024-01-01T00:05:39"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-01T00:04:24"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_10 a ex:Interaction ;
+    ex:actionEndTime "2024-01-13T00:02:52"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-13T00:01:26"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_100 a ex:Interaction ;
+    ex:actionEndTime "2024-02-20T00:05:09"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-20T00:03:42"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_101 a ex:Interaction ;
+    ex:actionEndTime "2024-02-20T00:05:20"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-20T00:04:31"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_102 a ex:Movement ;
+    ex:actionEndTime "2024-02-22T00:05:06"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-22T00:02:33"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_103 a ex:Interaction ;
+    ex:actionEndTime "2024-02-22T00:04:27"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-22T00:03:30"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_104 a ex:Interaction ;
+    ex:actionEndTime "2024-02-22T00:04:42"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-22T00:04:06"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_105 a ex:Interaction ;
+    ex:actionEndTime "2024-02-23T00:02:16"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-23T00:01:08"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_106 a ex:Interaction ;
+    ex:actionEndTime "2024-02-23T00:02:58"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-23T00:02:03"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_107 a ex:Interaction ;
+    ex:actionEndTime "2024-02-24T00:02:54"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-24T00:01:27"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_108 a ex:Movement ;
+    ex:actionEndTime "2024-02-24T00:07:47"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-24T00:04:37"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_109 a ex:Interaction ;
+    ex:actionEndTime "2024-02-24T00:06:35"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-24T00:05:36"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_11 a ex:Interaction ;
+    ex:actionEndTime "2024-01-16T00:02:08"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-16T00:01:04"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_110 a ex:Movement ;
+    ex:actionEndTime "2024-02-26T00:02:42"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-26T00:01:21"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_111 a ex:Interaction ;
+    ex:actionEndTime "2024-02-26T00:04:15"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-26T00:02:48"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_112 a ex:Movement ;
+    ex:actionEndTime "2024-02-26T00:11:30"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-26T00:07:09"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_113 a ex:Interaction ;
+    ex:actionEndTime "2024-02-26T00:09:59"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-26T00:08:34"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_114 a ex:Movement ;
+    ex:actionEndTime "2024-03-01T00:09:16"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-01T00:04:38"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_115 a ex:Interaction ;
+    ex:actionEndTime "2024-03-01T00:07:08"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-01T00:05:53"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_116 a ex:Movement ;
+    ex:actionEndTime "2024-03-01T00:15:39"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-01T00:10:46"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_117 a ex:Interaction ;
+    ex:actionEndTime "2024-03-01T00:13:26"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-01T00:12:06"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_118 a ex:Movement ;
+    ex:actionEndTime "2024-03-05T00:06:34"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-05T00:03:17"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_119 a ex:Interaction ;
+    ex:actionEndTime "2024-03-05T00:05:35"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-05T00:04:26"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_12 a ex:Interaction ;
+    ex:actionEndTime "2024-01-19T00:01:50"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-19T00:00:55"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_120 a ex:Movement ;
+    ex:actionEndTime "2024-03-05T00:12:16"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-05T00:08:21"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_121 a ex:Interaction ;
+    ex:actionEndTime "2024-03-05T00:10:01"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-05T00:09:11"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_122 a ex:Movement ;
+    ex:actionEndTime "2024-03-06T00:09:06"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-06T00:04:33"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_123 a ex:Interaction ;
+    ex:actionEndTime "2024-03-06T00:07:13"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-06T00:05:53"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_124 a ex:Interaction ;
+    ex:actionEndTime "2024-03-31T00:03:32"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-31T00:02:55"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_125 a ex:Movement ;
+    ex:actionEndTime "2024-03-31T00:06:59"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-31T00:04:57"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_126 a ex:Interaction ;
+    ex:actionEndTime "2024-03-31T00:07:15"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-31T00:06:06"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_127 a ex:Interaction ;
+    ex:actionEndTime "2024-04-01T00:02:30"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-01T00:01:15"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_128 a ex:Movement ;
+    ex:actionEndTime "2024-04-01T00:07:19"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-01T00:04:17"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_129 a ex:Interaction ;
+    ex:actionEndTime "2024-04-01T00:07:07"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-01T00:05:42"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_13 a ex:Interaction ;
+    ex:actionEndTime "2024-01-20T00:02:54"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-20T00:01:27"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_130 a ex:Movement ;
+    ex:actionEndTime "2024-04-02T00:06:00"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-02T00:03:00"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_131 a ex:Interaction ;
+    ex:actionEndTime "2024-04-02T00:04:08"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-02T00:03:34"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_132 a ex:Movement ;
+    ex:actionEndTime "2024-04-02T00:05:56"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-02T00:04:45"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_133 a ex:Interaction ;
+    ex:actionEndTime "2024-04-02T00:06:19"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-02T00:05:32"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_134 a ex:Movement ;
+    ex:actionEndTime "2024-04-03T00:03:50"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-03T00:01:55"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_135 a ex:Interaction ;
+    ex:actionEndTime "2024-04-03T00:03:11"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-03T00:02:33"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_136 a ex:Movement ;
+    ex:actionEndTime "2024-04-03T00:07:59"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-03T00:05:16"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_137 a ex:Interaction ;
+    ex:actionEndTime "2024-04-03T00:06:30"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-03T00:05:53"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_138 a ex:Movement ;
+    ex:actionEndTime "2024-04-04T00:02:54"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-04T00:01:27"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_139 a ex:Interaction ;
+    ex:actionEndTime "2024-04-04T00:04:15"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-04T00:02:51"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_14 a ex:Movement ;
+    ex:actionEndTime "2024-01-21T00:04:42"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-21T00:02:21"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_140 a ex:Interaction ;
+    ex:actionEndTime "2024-04-04T00:04:23"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-04T00:03:37"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_141 a ex:Interaction ;
+    ex:actionEndTime "2024-04-06T00:01:20"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-06T00:00:40"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_142 a ex:Interaction ;
+    ex:actionEndTime "2024-04-06T00:02:16"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-06T00:01:28"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_143 a ex:Movement ;
+    ex:actionEndTime "2024-04-08T00:06:56"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-08T00:03:28"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_144 a ex:Interaction ;
+    ex:actionEndTime "2024-04-08T00:05:14"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-08T00:04:21"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_145 a ex:Interaction ;
+    ex:actionEndTime "2024-04-08T00:06:39"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-08T00:05:30"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_146 a ex:Interaction ;
+    ex:actionEndTime "2024-04-09T00:01:42"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-09T00:00:51"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_147 a ex:Movement ;
+    ex:actionEndTime "2024-04-09T00:02:55"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-09T00:01:53"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_148 a ex:Interaction ;
+    ex:actionEndTime "2024-04-09T00:04:15"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-09T00:03:04"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_149 a ex:Movement ;
+    ex:actionEndTime "2024-04-12T00:02:32"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-12T00:01:16"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_15 a ex:Interaction ;
+    ex:actionEndTime "2024-01-21T00:04:23"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-21T00:03:22"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_150 a ex:Interaction ;
+    ex:actionEndTime "2024-04-12T00:02:56"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-12T00:02:06"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_151 a ex:Interaction ;
+    ex:actionEndTime "2024-04-12T00:05:00"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-12T00:03:33"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_152 a ex:Movement ;
+    ex:actionEndTime "2024-04-13T00:09:50"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-13T00:04:55"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_153 a ex:Interaction ;
+    ex:actionEndTime "2024-04-13T00:07:31"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-13T00:06:13"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_154 a ex:Interaction ;
+    ex:actionEndTime "2024-04-13T00:07:23"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-13T00:06:48"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_155 a ex:Movement ;
+    ex:actionEndTime "2024-04-14T00:04:34"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-14T00:02:17"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_156 a ex:Interaction ;
+    ex:actionEndTime "2024-04-14T00:05:07"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-14T00:03:42"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_157 a ex:Movement ;
+    ex:actionEndTime "2024-04-14T00:13:24"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-14T00:08:33"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_158 a ex:Interaction ;
+    ex:actionEndTime "2024-04-14T00:09:41"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-14T00:09:07"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_159 a ex:Movement ;
+    ex:actionEndTime "2024-04-16T00:02:56"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-16T00:01:28"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_16 a ex:Interaction ;
+    ex:actionEndTime "2024-01-22T00:01:48"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-22T00:00:54"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_160 a ex:Interaction ;
+    ex:actionEndTime "2024-04-16T00:04:26"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-16T00:02:57"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_161 a ex:Movement ;
+    ex:actionEndTime "2024-04-16T00:10:45"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-16T00:06:51"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_162 a ex:Interaction ;
+    ex:actionEndTime "2024-04-16T00:09:13"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-16T00:08:02"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_163 a ex:Interaction ;
+    ex:actionEndTime "2024-04-17T00:02:30"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-17T00:01:15"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_164 a ex:Interaction ;
+    ex:actionEndTime "2024-04-17T00:03:09"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-17T00:02:12"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_165 a ex:Movement ;
+    ex:actionEndTime "2024-04-25T00:08:06"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-25T00:04:03"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_166 a ex:Interaction ;
+    ex:actionEndTime "2024-04-25T00:06:05"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-25T00:05:04"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_167 a ex:Interaction ;
+    ex:actionEndTime "2024-04-25T00:07:00"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-25T00:06:02"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_168 a ex:Movement ;
+    ex:actionEndTime "2024-04-26T00:02:52"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-26T00:01:26"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_169 a ex:Interaction ;
+    ex:actionEndTime "2024-04-26T00:03:34"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-26T00:02:30"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_17 a ex:Movement ;
+    ex:actionEndTime "2024-01-24T00:04:54"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-24T00:02:27"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_170 a ex:Interaction ;
+    ex:actionEndTime "2024-04-26T00:04:28"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-26T00:03:29"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_171 a ex:Movement ;
+    ex:actionEndTime "2024-04-28T00:04:46"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-28T00:02:23"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_172 a ex:Interaction ;
+    ex:actionEndTime "2024-04-28T00:04:33"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-28T00:03:28"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_173 a ex:Movement ;
+    ex:actionEndTime "2024-04-28T00:09:54"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-28T00:06:41"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_174 a ex:Interaction ;
+    ex:actionEndTime "2024-04-28T00:09:03"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-28T00:07:52"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_175 a ex:Movement ;
+    ex:actionEndTime "2024-04-30T00:08:20"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-30T00:04:10"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_176 a ex:Interaction ;
+    ex:actionEndTime "2024-04-30T00:05:48"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-30T00:04:59"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_177 a ex:Interaction ;
+    ex:actionEndTime "2024-04-30T00:07:39"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-30T00:06:19"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_178 a ex:Interaction ;
+    ex:actionEndTime "2024-05-01T00:02:10"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-01T00:01:05"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_179 a ex:Interaction ;
+    ex:actionEndTime "2024-05-01T00:03:29"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-01T00:02:17"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_18 a ex:Interaction ;
+    ex:actionEndTime "2024-01-24T00:05:09"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-24T00:03:48"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_180 a ex:Interaction ;
+    ex:actionEndTime "2024-05-03T00:01:14"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-03T00:00:37"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_181 a ex:Movement ;
+    ex:actionEndTime "2024-05-03T00:09:23"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-03T00:05:00"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_182 a ex:Interaction ;
+    ex:actionEndTime "2024-05-03T00:06:08"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-03T00:05:34"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_183 a ex:Interaction ;
+    ex:actionEndTime "2024-05-06T00:01:02"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-06T00:00:31"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_184 a ex:Interaction ;
+    ex:actionEndTime "2024-05-06T00:02:33"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-06T00:01:32"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_185 a ex:Movement ;
+    ex:actionEndTime "2024-05-07T00:08:26"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-07T00:04:13"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_186 a ex:Interaction ;
+    ex:actionEndTime "2024-05-07T00:07:07"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-07T00:05:40"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_187 a ex:Interaction ;
+    ex:actionEndTime "2024-05-07T00:07:10"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-07T00:06:25"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_188 a ex:Movement ;
+    ex:actionEndTime "2024-05-09T00:06:40"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-09T00:03:20"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_189 a ex:Interaction ;
+    ex:actionEndTime "2024-05-09T00:05:04"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-09T00:04:12"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_19 a ex:Movement ;
+    ex:actionEndTime "2024-01-26T00:04:00"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-26T00:02:00"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_190 a ex:Interaction ;
+    ex:actionEndTime "2024-05-09T00:06:42"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-09T00:05:27"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_191 a ex:Movement ;
+    ex:actionEndTime "2024-05-10T00:03:22"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-10T00:01:41"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_192 a ex:Interaction ;
+    ex:actionEndTime "2024-05-10T00:02:59"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-10T00:02:20"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_193 a ex:Interaction ;
+    ex:actionEndTime "2024-05-10T00:04:12"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-10T00:03:16"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_194 a ex:Interaction ;
+    ex:actionEndTime "2024-05-11T00:01:14"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-11T00:00:37"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_195 a ex:Interaction ;
+    ex:actionEndTime "2024-05-11T00:02:57"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-11T00:01:47"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_196 a ex:Movement ;
+    ex:actionEndTime "2024-05-12T00:08:22"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-12T00:04:11"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_197 a ex:Interaction ;
+    ex:actionEndTime "2024-05-12T00:06:37"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-12T00:05:24"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_198 a ex:Movement ;
+    ex:actionEndTime "2024-05-12T00:14:52"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-12T00:10:08"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_199 a ex:Interaction ;
+    ex:actionEndTime "2024-05-12T00:13:04"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-12T00:11:36"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_2 a ex:Interaction ;
+    ex:actionEndTime "2024-01-02T00:02:06"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-02T00:01:03"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_20 a ex:Interaction ;
+    ex:actionEndTime "2024-01-26T00:04:26"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-26T00:03:13"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_200 a ex:Movement ;
+    ex:actionEndTime "2024-05-15T00:07:24"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-15T00:03:42"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_201 a ex:Interaction ;
+    ex:actionEndTime "2024-05-15T00:04:44"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-15T00:04:13"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_202 a ex:Movement ;
+    ex:actionEndTime "2024-05-15T00:09:39"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-15T00:06:56"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_203 a ex:Interaction ;
+    ex:actionEndTime "2024-05-15T00:09:34"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-15T00:08:15"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_204 a ex:Interaction ;
+    ex:actionEndTime "2024-05-16T00:02:50"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-16T00:01:25"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_205 a ex:Interaction ;
+    ex:actionEndTime "2024-05-16T00:02:33"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-16T00:01:59"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_206 a ex:Movement ;
+    ex:actionEndTime "2024-05-17T00:03:46"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-17T00:01:53"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_207 a ex:Interaction ;
+    ex:actionEndTime "2024-05-17T00:03:39"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-17T00:02:46"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_208 a ex:Movement ;
+    ex:actionEndTime "2024-05-17T00:07:14"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-17T00:05:00"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_209 a ex:Interaction ;
+    ex:actionEndTime "2024-05-17T00:07:12"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-17T00:06:06"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_21 a ex:Interaction ;
+    ex:actionEndTime "2024-02-02T00:01:04"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-02T00:00:32"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_210 a ex:Interaction ;
+    ex:actionEndTime "2024-05-18T00:01:06"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-18T00:00:33"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_211 a ex:Interaction ;
+    ex:actionEndTime "2024-05-18T00:01:45"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-18T00:01:09"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_212 a ex:Movement ;
+    ex:actionEndTime "2024-05-22T00:07:38"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-22T00:03:49"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_213 a ex:Interaction ;
+    ex:actionEndTime "2024-05-22T00:05:59"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-22T00:04:54"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_214 a ex:Interaction ;
+    ex:actionEndTime "2024-05-22T00:07:00"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-22T00:05:57"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_215 a ex:Movement ;
+    ex:actionEndTime "2024-05-24T00:02:44"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-24T00:01:22"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_216 a ex:Interaction ;
+    ex:actionEndTime "2024-05-24T00:04:12"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-24T00:02:47"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_217 a ex:Interaction ;
+    ex:actionEndTime "2024-05-24T00:04:13"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-24T00:03:30"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_218 a ex:Interaction ;
+    ex:actionEndTime "2024-05-25T00:02:04"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-25T00:01:02"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_219 a ex:Interaction ;
+    ex:actionEndTime "2024-05-25T00:03:16"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-25T00:02:09"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_22 a ex:Movement ;
+    ex:actionEndTime "2024-01-01T00:05:08"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-01T00:02:34"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_220 a ex:Movement ;
+    ex:actionEndTime "2024-05-27T00:04:48"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-27T00:02:24"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_221 a ex:Interaction ;
+    ex:actionEndTime "2024-05-27T00:03:40"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-27T00:03:02"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_222 a ex:Interaction ;
+    ex:actionEndTime "2024-05-27T00:04:52"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-27T00:03:57"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_223 a ex:Interaction ;
+    ex:actionEndTime "2024-06-13T00:04:16"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-13T00:03:29"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_224 a ex:Movement ;
+    ex:actionEndTime "2024-06-14T00:02:42"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-14T00:01:21"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_225 a ex:Interaction ;
+    ex:actionEndTime "2024-06-14T00:02:55"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-14T00:02:08"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_226 a ex:Movement ;
+    ex:actionEndTime "2024-06-14T00:08:56"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-14T00:05:32"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_227 a ex:Interaction ;
+    ex:actionEndTime "2024-06-14T00:07:46"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-14T00:06:39"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_228 a ex:Interaction ;
+    ex:actionEndTime "2024-06-18T00:01:16"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-18T00:00:38"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_229 a ex:Interaction ;
+    ex:actionEndTime "2024-06-18T00:03:20"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-18T00:01:59"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_23 a ex:Interaction ;
+    ex:actionEndTime "2024-01-01T00:05:28"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-01T00:04:01"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_230 a ex:Movement ;
+    ex:actionEndTime "2024-06-19T00:09:14"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-19T00:04:37"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_231 a ex:Interaction ;
+    ex:actionEndTime "2024-06-19T00:06:01"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-19T00:05:19"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_232 a ex:Interaction ;
+    ex:actionEndTime "2024-06-19T00:07:03"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-19T00:06:11"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_233 a ex:Interaction ;
+    ex:actionEndTime "2024-06-20T00:02:58"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-20T00:01:29"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_234 a ex:Interaction ;
+    ex:actionEndTime "2024-06-20T00:02:37"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-20T00:02:03"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_235 a ex:Interaction ;
+    ex:actionEndTime "2024-06-26T00:01:12"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-26T00:00:36"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_236 a ex:Movement ;
+    ex:actionEndTime "2024-06-26T00:06:52"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-26T00:03:44"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_237 a ex:Interaction ;
+    ex:actionEndTime "2024-06-26T00:05:46"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-26T00:04:45"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_238 a ex:Interaction ;
+    ex:actionEndTime "2024-06-27T00:01:08"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-27T00:00:34"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_239 a ex:Movement ;
+    ex:actionEndTime "2024-06-27T00:04:12"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-27T00:02:23"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_24 a ex:Movement ;
+    ex:actionEndTime "2024-01-01T00:09:51"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-01T00:06:56"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_240 a ex:Interaction ;
+    ex:actionEndTime "2024-06-27T00:03:41"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-27T00:03:02"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_241 a ex:Interaction ;
+    ex:actionEndTime "2024-07-04T00:01:24"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-04T00:00:42"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_242 a ex:Movement ;
+    ex:actionEndTime "2024-07-04T00:04:28"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-04T00:02:35"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_243 a ex:Interaction ;
+    ex:actionEndTime "2024-07-04T00:04:15"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-04T00:03:25"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_244 a ex:Interaction ;
+    ex:actionEndTime "2024-07-05T00:01:14"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-05T00:00:37"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_245 a ex:Interaction ;
+    ex:actionEndTime "2024-07-05T00:02:03"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-05T00:01:20"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_246 a ex:Movement ;
+    ex:actionEndTime "2024-07-07T00:06:30"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-07T00:03:15"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_247 a ex:Interaction ;
+    ex:actionEndTime "2024-07-07T00:06:15"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-07T00:04:45"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_248 a ex:Interaction ;
+    ex:actionEndTime "2024-07-07T00:07:23"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-07T00:06:04"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_249 a ex:Movement ;
+    ex:actionEndTime "2024-07-11T00:08:20"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-11T00:04:10"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_25 a ex:Interaction ;
+    ex:actionEndTime "2024-01-01T00:08:06"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-01T00:07:31"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_250 a ex:Interaction ;
+    ex:actionEndTime "2024-07-11T00:05:42"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-11T00:04:56"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_251 a ex:Movement ;
+    ex:actionEndTime "2024-07-11T00:09:30"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-11T00:07:13"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_252 a ex:Interaction ;
+    ex:actionEndTime "2024-07-11T00:08:15"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-11T00:07:44"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_253 a ex:Movement ;
+    ex:actionEndTime "2024-07-13T00:09:36"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-13T00:04:48"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_254 a ex:Interaction ;
+    ex:actionEndTime "2024-07-13T00:06:00"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-13T00:05:24"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_255 a ex:Interaction ;
+    ex:actionEndTime "2024-07-13T00:07:20"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-13T00:06:22"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_256 a ex:Interaction ;
+    ex:actionEndTime "2024-07-14T00:01:52"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-14T00:00:56"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_257 a ex:Movement ;
+    ex:actionEndTime "2024-07-14T00:08:10"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-14T00:04:33"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_258 a ex:Interaction ;
+    ex:actionEndTime "2024-07-14T00:07:19"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-14T00:05:56"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_259 a ex:Movement ;
+    ex:actionEndTime "2024-07-15T00:08:58"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-15T00:04:29"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_26 a ex:Movement ;
+    ex:actionEndTime "2024-01-02T00:09:50"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-02T00:04:55"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_260 a ex:Interaction ;
+    ex:actionEndTime "2024-07-15T00:06:45"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-15T00:05:37"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_261 a ex:Interaction ;
+    ex:actionEndTime "2024-07-15T00:08:23"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-15T00:07:00"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_262 a ex:Interaction ;
+    ex:actionEndTime "2024-07-17T00:02:02"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-17T00:01:01"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_263 a ex:Movement ;
+    ex:actionEndTime "2024-07-17T00:03:11"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-17T00:02:06"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_264 a ex:Interaction ;
+    ex:actionEndTime "2024-07-17T00:04:14"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-17T00:03:10"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_265 a ex:Movement ;
+    ex:actionEndTime "2024-01-21T00:12:14"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-21T00:07:57"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_266 a ex:Interaction ;
+    ex:actionEndTime "2024-01-21T00:10:49"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-21T00:09:23"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_267 a ex:Movement ;
+    ex:actionEndTime "2024-01-23T00:06:34"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-23T00:03:17"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_268 a ex:Interaction ;
+    ex:actionEndTime "2024-01-23T00:05:59"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-23T00:04:38"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_269 a ex:Interaction ;
+    ex:actionEndTime "2024-01-23T00:05:48"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-23T00:05:13"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_27 a ex:Interaction ;
+    ex:actionEndTime "2024-01-02T00:05:59"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-02T00:05:27"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_270 a ex:Movement ;
+    ex:actionEndTime "2024-01-27T00:07:38"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-27T00:03:49"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_271 a ex:Interaction ;
+    ex:actionEndTime "2024-01-27T00:06:03"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-27T00:04:56"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_272 a ex:Movement ;
+    ex:actionEndTime "2024-01-27T00:09:42"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-27T00:07:19"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_273 a ex:Interaction ;
+    ex:actionEndTime "2024-01-27T00:08:47"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-27T00:08:03"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_274 a ex:Movement ;
+    ex:actionEndTime "2024-01-29T00:03:42"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-29T00:01:51"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_275 a ex:Interaction ;
+    ex:actionEndTime "2024-01-29T00:03:47"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-29T00:02:49"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_276 a ex:Interaction ;
+    ex:actionEndTime "2024-01-29T00:03:49"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-29T00:03:19"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_277 a ex:Interaction ;
+    ex:actionEndTime "2024-01-30T00:01:18"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-30T00:00:39"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_278 a ex:Interaction ;
+    ex:actionEndTime "2024-01-30T00:02:31"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-30T00:01:35"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_279 a ex:Movement ;
+    ex:actionEndTime "2024-02-01T00:05:46"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-01T00:02:53"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_28 a ex:Movement ;
+    ex:actionEndTime "2024-01-02T00:13:27"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-02T00:09:27"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_280 a ex:Interaction ;
+    ex:actionEndTime "2024-02-01T00:04:43"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-01T00:03:48"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_281 a ex:Movement ;
+    ex:actionEndTime "2024-02-01T00:13:46"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-01T00:08:47"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_282 a ex:Interaction ;
+    ex:actionEndTime "2024-02-01T00:10:07"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-01T00:09:27"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_283 a ex:Movement ;
+    ex:actionEndTime "2024-02-02T00:08:08"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-02T00:04:04"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_284 a ex:Interaction ;
+    ex:actionEndTime "2024-02-02T00:05:54"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-02T00:04:59"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_285 a ex:Movement ;
+    ex:actionEndTime "2024-02-02T00:08:41"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-02T00:06:50"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_286 a ex:Interaction ;
+    ex:actionEndTime "2024-02-02T00:09:50"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-02T00:08:20"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_287 a ex:Interaction ;
+    ex:actionEndTime "2024-02-05T00:02:14"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-05T00:01:07"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_288 a ex:Interaction ;
+    ex:actionEndTime "2024-02-05T00:03:43"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-05T00:02:25"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_289 a ex:Interaction ;
+    ex:actionEndTime "2024-02-06T00:01:34"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-06T00:00:47"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_29 a ex:Interaction ;
+    ex:actionEndTime "2024-01-02T00:11:43"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-02T00:10:35"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_290 a ex:Movement ;
+    ex:actionEndTime "2024-02-06T00:03:47"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-06T00:02:17"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_291 a ex:Interaction ;
+    ex:actionEndTime "2024-02-06T00:04:51"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-06T00:03:34"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_292 a ex:Movement ;
+    ex:actionEndTime "2024-02-08T00:02:48"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-08T00:01:24"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_293 a ex:Interaction ;
+    ex:actionEndTime "2024-02-08T00:03:52"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-08T00:02:38"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_294 a ex:Movement ;
+    ex:actionEndTime "2024-02-08T00:10:46"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-08T00:06:42"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_295 a ex:Interaction ;
+    ex:actionEndTime "2024-02-08T00:08:46"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-08T00:07:44"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_296 a ex:Movement ;
+    ex:actionEndTime "2024-02-11T00:07:30"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-11T00:03:45"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_297 a ex:Interaction ;
+    ex:actionEndTime "2024-02-11T00:06:25"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-11T00:05:05"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_298 a ex:Interaction ;
+    ex:actionEndTime "2024-02-11T00:07:35"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-11T00:06:20"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_299 a ex:Movement ;
+    ex:actionEndTime "2024-02-17T00:07:42"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-17T00:03:51"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_3 a ex:Interaction ;
+    ex:actionEndTime "2024-01-04T00:02:14"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-04T00:01:07"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_30 a ex:Movement ;
+    ex:actionEndTime "2024-01-10T00:02:50"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-10T00:01:25"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_300 a ex:Interaction ;
+    ex:actionEndTime "2024-02-17T00:05:57"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-17T00:04:54"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_301 a ex:Movement ;
+    ex:actionEndTime "2024-02-17T00:12:46"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-17T00:08:50"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_302 a ex:Interaction ;
+    ex:actionEndTime "2024-02-17T00:09:58"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-17T00:09:24"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_303 a ex:Movement ;
+    ex:actionEndTime "2024-02-19T00:05:36"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-19T00:02:48"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_304 a ex:Interaction ;
+    ex:actionEndTime "2024-02-19T00:04:10"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-19T00:03:29"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_305 a ex:Interaction ;
+    ex:actionEndTime "2024-02-19T00:05:11"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-19T00:04:20"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_306 a ex:Interaction ;
+    ex:actionEndTime "2024-02-24T00:02:10"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-24T00:01:05"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_307 a ex:Movement ;
+    ex:actionEndTime "2024-02-24T00:08:19"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-24T00:04:42"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_308 a ex:Interaction ;
+    ex:actionEndTime "2024-02-24T00:06:46"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-24T00:05:44"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_309 a ex:Movement ;
+    ex:actionEndTime "2024-02-25T00:05:34"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-25T00:02:47"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_31 a ex:Interaction ;
+    ex:actionEndTime "2024-01-10T00:02:31"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-10T00:01:58"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_310 a ex:Movement ;
+    ex:actionEndTime "2024-03-02T00:10:15"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-02T00:06:14"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_311 a ex:Interaction ;
+    ex:actionEndTime "2024-03-02T00:07:30"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-02T00:06:52"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_312 a ex:Movement ;
+    ex:actionEndTime "2024-03-03T00:03:08"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-03T00:01:34"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_313 a ex:Interaction ;
+    ex:actionEndTime "2024-03-03T00:03:54"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-03T00:02:44"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_314 a ex:Movement ;
+    ex:actionEndTime "2024-03-03T00:12:38"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-03T00:07:41"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_315 a ex:Interaction ;
+    ex:actionEndTime "2024-03-03T00:10:39"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-03T00:09:10"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_316 a ex:Interaction ;
+    ex:actionEndTime "2024-03-04T00:02:20"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-04T00:01:10"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_317 a ex:Interaction ;
+    ex:actionEndTime "2024-03-04T00:03:22"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-04T00:02:16"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_318 a ex:Movement ;
+    ex:actionEndTime "2024-03-07T00:04:52"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-07T00:02:26"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_319 a ex:Interaction ;
+    ex:actionEndTime "2024-03-07T00:03:34"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-07T00:03:00"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_32 a ex:Interaction ;
+    ex:actionEndTime "2024-01-10T00:03:26"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-10T00:02:42"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_320 a ex:Interaction ;
+    ex:actionEndTime "2024-03-07T00:04:44"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-07T00:03:52"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_321 a ex:Movement ;
+    ex:actionEndTime "2024-03-08T00:09:54"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-08T00:04:57"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_322 a ex:Interaction ;
+    ex:actionEndTime "2024-03-08T00:06:47"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-08T00:05:52"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_323 a ex:Movement ;
+    ex:actionEndTime "2024-03-08T00:13:02"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-08T00:09:27"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_324 a ex:Interaction ;
+    ex:actionEndTime "2024-03-08T00:11:17"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-08T00:10:22"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_325 a ex:Movement ;
+    ex:actionEndTime "2024-03-10T00:04:10"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-10T00:02:05"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_326 a ex:Interaction ;
+    ex:actionEndTime "2024-03-10T00:03:57"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-10T00:03:01"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_327 a ex:Movement ;
+    ex:actionEndTime "2024-03-10T00:12:51"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-10T00:07:56"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_328 a ex:Interaction ;
+    ex:actionEndTime "2024-03-10T00:10:28"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-10T00:09:12"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_329 a ex:Movement ;
+    ex:actionEndTime "2024-03-11T00:07:32"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-11T00:03:46"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_33 a ex:Interaction ;
+    ex:actionEndTime "2024-01-11T00:02:12"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-11T00:01:06"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_330 a ex:Interaction ;
+    ex:actionEndTime "2024-03-11T00:05:22"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-11T00:04:34"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_331 a ex:Movement ;
+    ex:actionEndTime "2024-03-11T00:11:00"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-11T00:07:47"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_332 a ex:Interaction ;
+    ex:actionEndTime "2024-03-11T00:10:25"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-11T00:09:06"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_333 a ex:Interaction ;
+    ex:actionEndTime "2024-03-14T00:02:52"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-14T00:01:26"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_334 a ex:Movement ;
+    ex:actionEndTime "2024-03-14T00:09:52"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-14T00:05:39"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_335 a ex:Interaction ;
+    ex:actionEndTime "2024-03-14T00:07:35"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-14T00:06:37"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_336 a ex:Movement ;
+    ex:actionEndTime "2024-03-15T00:08:50"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-15T00:04:25"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_337 a ex:Interaction ;
+    ex:actionEndTime "2024-03-15T00:07:13"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-15T00:05:49"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_338 a ex:Interaction ;
+    ex:actionEndTime "2024-03-15T00:07:19"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-15T00:06:34"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_339 a ex:Interaction ;
+    ex:actionEndTime "2024-03-17T00:01:42"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-17T00:00:51"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_34 a ex:Interaction ;
+    ex:actionEndTime "2024-01-11T00:02:32"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-11T00:01:49"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_340 a ex:Movement ;
+    ex:actionEndTime "2024-03-17T00:09:33"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-17T00:05:12"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_341 a ex:Interaction ;
+    ex:actionEndTime "2024-03-17T00:08:02"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-17T00:06:37"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_342 a ex:Interaction ;
+    ex:actionEndTime "2024-03-22T00:01:22"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-22T00:00:41"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_343 a ex:Interaction ;
+    ex:actionEndTime "2024-03-22T00:03:21"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-22T00:02:01"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_344 a ex:Movement ;
+    ex:actionEndTime "2024-03-24T00:04:34"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-24T00:02:17"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_345 a ex:Interaction ;
+    ex:actionEndTime "2024-03-24T00:04:35"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-24T00:03:26"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_346 a ex:Movement ;
+    ex:actionEndTime "2024-03-24T00:07:54"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-24T00:05:40"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_347 a ex:Interaction ;
+    ex:actionEndTime "2024-03-24T00:08:34"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-24T00:07:07"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_348 a ex:Movement ;
+    ex:actionEndTime "2024-03-25T00:07:32"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-25T00:03:46"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_349 a ex:Interaction ;
+    ex:actionEndTime "2024-03-25T00:06:44"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-25T00:05:15"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_35 a ex:Interaction ;
+    ex:actionEndTime "2024-01-13T00:03:00"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-13T00:01:30"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_350 a ex:Interaction ;
+    ex:actionEndTime "2024-03-25T00:07:47"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-25T00:06:31"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_351 a ex:Interaction ;
+    ex:actionEndTime "2024-03-27T00:01:58"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-27T00:00:59"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_352 a ex:Movement ;
+    ex:actionEndTime "2024-03-27T00:07:53"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-27T00:04:26"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_353 a ex:Interaction ;
+    ex:actionEndTime "2024-03-27T00:05:34"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-27T00:05:00"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_354 a ex:Interaction ;
+    ex:actionEndTime "2024-03-28T00:01:52"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-28T00:00:56"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_355 a ex:Movement ;
+    ex:actionEndTime "2024-03-28T00:10:32"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-28T00:05:44"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_356 a ex:Interaction ;
+    ex:actionEndTime "2024-03-28T00:07:24"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-28T00:06:34"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_357 a ex:Movement ;
+    ex:actionEndTime "2024-03-29T00:07:48"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-29T00:03:54"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_358 a ex:Interaction ;
+    ex:actionEndTime "2024-03-29T00:06:36"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-29T00:05:15"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_359 a ex:Interaction ;
+    ex:actionEndTime "2024-03-29T00:07:23"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-29T00:06:19"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_36 a ex:Interaction ;
+    ex:actionEndTime "2024-01-13T00:03:28"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-13T00:02:29"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_360 a ex:Movement ;
+    ex:actionEndTime "2024-03-30T00:03:48"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-30T00:01:54"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_361 a ex:Interaction ;
+    ex:actionEndTime "2024-03-30T00:04:08"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-30T00:03:01"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_362 a ex:Interaction ;
+    ex:actionEndTime "2024-03-30T00:05:07"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-30T00:04:04"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_363 a ex:Movement ;
+    ex:actionEndTime "2024-03-31T00:03:50"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-31T00:01:55"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_364 a ex:Interaction ;
+    ex:actionEndTime "2024-03-31T00:04:31"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-31T00:03:13"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_365 a ex:Interaction ;
+    ex:actionEndTime "2024-03-31T00:05:07"^^xsd:dateTime ;
+    ex:actionStartTime "2024-03-31T00:04:10"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_366 a ex:Interaction ;
+    ex:actionEndTime "2024-04-01T00:02:18"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-01T00:01:09"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_367 a ex:Movement ;
+    ex:actionEndTime "2024-04-01T00:06:43"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-01T00:03:56"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_368 a ex:Interaction ;
+    ex:actionEndTime "2024-04-01T00:05:26"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-01T00:04:41"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_369 a ex:Movement ;
+    ex:actionEndTime "2024-04-03T00:03:52"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-03T00:01:56"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_37 a ex:Interaction ;
+    ex:actionEndTime "2024-01-14T00:02:00"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-14T00:01:00"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_370 a ex:Interaction ;
+    ex:actionEndTime "2024-04-03T00:04:44"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-03T00:03:20"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_371 a ex:Movement ;
+    ex:actionEndTime "2024-04-03T00:11:40"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-03T00:07:30"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_372 a ex:Interaction ;
+    ex:actionEndTime "2024-04-03T00:10:06"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-03T00:08:48"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_373 a ex:Interaction ;
+    ex:actionEndTime "2024-04-05T00:01:10"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-05T00:00:35"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_374 a ex:Movement ;
+    ex:actionEndTime "2024-04-05T00:08:41"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-05T00:04:38"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_375 a ex:Interaction ;
+    ex:actionEndTime "2024-04-05T00:06:34"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-05T00:05:36"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_376 a ex:Movement ;
+    ex:actionEndTime "2024-04-17T00:10:07"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-17T00:06:57"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_377 a ex:Interaction ;
+    ex:actionEndTime "2024-04-17T00:08:45"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-17T00:07:51"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_378 a ex:Movement ;
+    ex:actionEndTime "2024-04-18T00:07:08"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-18T00:03:34"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_379 a ex:Interaction ;
+    ex:actionEndTime "2024-04-18T00:05:22"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-18T00:04:28"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_38 a ex:Movement ;
+    ex:actionEndTime "2024-01-14T00:08:42"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-14T00:04:51"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_380 a ex:Movement ;
+    ex:actionEndTime "2024-04-18T00:13:54"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-18T00:09:11"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_381 a ex:Interaction ;
+    ex:actionEndTime "2024-04-18T00:11:07"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-18T00:10:09"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_382 a ex:Movement ;
+    ex:actionEndTime "2024-04-21T00:06:34"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-21T00:03:17"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_383 a ex:Interaction ;
+    ex:actionEndTime "2024-04-21T00:06:05"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-21T00:04:41"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_384 a ex:Interaction ;
+    ex:actionEndTime "2024-04-21T00:07:17"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-21T00:05:59"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_385 a ex:Movement ;
+    ex:actionEndTime "2024-04-22T00:08:48"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-22T00:04:24"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_386 a ex:Interaction ;
+    ex:actionEndTime "2024-04-22T00:06:52"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-22T00:05:38"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_387 a ex:Movement ;
+    ex:actionEndTime "2024-04-22T00:08:54"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-22T00:07:16"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_388 a ex:Interaction ;
+    ex:actionEndTime "2024-04-22T00:08:48"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-22T00:08:02"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_389 a ex:Movement ;
+    ex:actionEndTime "2024-04-23T00:03:46"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-23T00:01:53"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_39 a ex:Interaction ;
+    ex:actionEndTime "2024-01-14T00:06:57"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-14T00:05:54"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_390 a ex:Interaction ;
+    ex:actionEndTime "2024-04-23T00:04:31"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-23T00:03:12"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_391 a ex:Movement ;
+    ex:actionEndTime "2024-04-23T00:08:12"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-23T00:05:42"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_392 a ex:Interaction ;
+    ex:actionEndTime "2024-04-23T00:07:30"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-23T00:06:36"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_393 a ex:Movement ;
+    ex:actionEndTime "2024-04-25T00:06:18"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-25T00:03:09"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_394 a ex:Interaction ;
+    ex:actionEndTime "2024-04-25T00:05:27"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-25T00:04:18"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_395 a ex:Movement ;
+    ex:actionEndTime "2024-04-25T00:13:40"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-25T00:08:59"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_396 a ex:Interaction ;
+    ex:actionEndTime "2024-04-25T00:11:01"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-25T00:10:00"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_397 a ex:Interaction ;
+    ex:actionEndTime "2024-04-26T00:01:18"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-26T00:00:39"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_398 a ex:Movement ;
+    ex:actionEndTime "2024-04-26T00:05:17"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-26T00:02:58"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_399 a ex:Interaction ;
+    ex:actionEndTime "2024-04-26T00:04:04"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-26T00:03:31"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_4 a ex:Interaction ;
+    ex:actionEndTime "2024-01-05T00:01:48"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-05T00:00:54"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_40 a ex:Interaction ;
+    ex:actionEndTime "2024-01-15T00:02:12"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-15T00:01:06"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_400 a ex:Interaction ;
+    ex:actionEndTime "2024-04-27T00:01:42"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-27T00:00:51"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_401 a ex:Movement ;
+    ex:actionEndTime "2024-04-27T00:09:19"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-27T00:05:05"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_402 a ex:Interaction ;
+    ex:actionEndTime "2024-04-27T00:07:39"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-27T00:06:22"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_403 a ex:Movement ;
+    ex:actionEndTime "2024-04-30T00:07:36"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-30T00:03:48"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_404 a ex:Interaction ;
+    ex:actionEndTime "2024-04-30T00:06:40"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-30T00:05:14"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_405 a ex:Interaction ;
+    ex:actionEndTime "2024-04-30T00:08:06"^^xsd:dateTime ;
+    ex:actionStartTime "2024-04-30T00:06:40"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_406 a ex:Movement ;
+    ex:actionEndTime "2024-05-01T00:09:00"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-01T00:04:30"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_407 a ex:Interaction ;
+    ex:actionEndTime "2024-05-01T00:06:08"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-01T00:05:19"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_408 a ex:Interaction ;
+    ex:actionEndTime "2024-05-01T00:06:39"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-01T00:05:59"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_409 a ex:Movement ;
+    ex:actionEndTime "2024-05-05T00:08:34"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-05T00:04:17"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_41 a ex:Interaction ;
+    ex:actionEndTime "2024-01-15T00:02:46"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-15T00:01:56"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_410 a ex:Interaction ;
+    ex:actionEndTime "2024-05-05T00:05:31"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-05T00:04:54"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_411 a ex:Interaction ;
+    ex:actionEndTime "2024-05-05T00:06:10"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-05T00:05:32"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_412 a ex:Interaction ;
+    ex:actionEndTime "2024-05-06T00:02:18"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-06T00:01:09"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_413 a ex:Interaction ;
+    ex:actionEndTime "2024-05-06T00:03:41"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-06T00:02:25"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_414 a ex:Movement ;
+    ex:actionEndTime "2024-05-07T00:08:28"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-07T00:04:14"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_415 a ex:Interaction ;
+    ex:actionEndTime "2024-05-07T00:06:52"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-07T00:05:33"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_416 a ex:Interaction ;
+    ex:actionEndTime "2024-05-07T00:07:15"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-07T00:06:24"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_417 a ex:Interaction ;
+    ex:actionEndTime "2024-05-11T00:02:04"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-11T00:01:02"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_418 a ex:Interaction ;
+    ex:actionEndTime "2024-05-11T00:03:42"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-11T00:02:22"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_419 a ex:Interaction ;
+    ex:actionEndTime "2024-05-13T00:02:14"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-13T00:01:07"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_42 a ex:Interaction ;
+    ex:actionEndTime "2024-01-17T00:01:14"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-17T00:00:37"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_420 a ex:Movement ;
+    ex:actionEndTime "2024-05-13T00:09:43"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-13T00:05:25"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_421 a ex:Interaction ;
+    ex:actionEndTime "2024-05-13T00:07:41"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-13T00:06:33"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_422 a ex:Movement ;
+    ex:actionEndTime "2024-05-14T00:09:58"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-14T00:04:59"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_423 a ex:Interaction ;
+    ex:actionEndTime "2024-05-14T00:06:47"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-14T00:05:53"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_424 a ex:Movement ;
+    ex:actionEndTime "2024-05-14T00:11:03"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-14T00:08:28"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_425 a ex:Interaction ;
+    ex:actionEndTime "2024-05-14T00:11:22"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-14T00:09:55"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_426 a ex:Interaction ;
+    ex:actionEndTime "2024-05-17T00:02:32"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-17T00:01:16"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_427 a ex:Movement ;
+    ex:actionEndTime "2024-05-17T00:07:14"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-17T00:04:15"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_428 a ex:Interaction ;
+    ex:actionEndTime "2024-05-17T00:06:39"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-17T00:05:27"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_429 a ex:Interaction ;
+    ex:actionEndTime "2024-05-19T00:02:00"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-19T00:01:00"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_43 a ex:Movement ;
+    ex:actionEndTime "2024-01-17T00:05:43"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-17T00:03:10"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_430 a ex:Interaction ;
+    ex:actionEndTime "2024-05-19T00:03:52"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-19T00:02:26"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_431 a ex:Movement ;
+    ex:actionEndTime "2024-05-20T00:07:48"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-20T00:03:54"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_432 a ex:Interaction ;
+    ex:actionEndTime "2024-05-20T00:05:00"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-20T00:04:27"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_433 a ex:Interaction ;
+    ex:actionEndTime "2024-05-20T00:05:27"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-20T00:04:57"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_434 a ex:Movement ;
+    ex:actionEndTime "2024-05-22T00:08:20"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-22T00:04:10"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_435 a ex:Interaction ;
+    ex:actionEndTime "2024-05-22T00:05:36"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-22T00:04:53"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_436 a ex:Interaction ;
+    ex:actionEndTime "2024-05-22T00:07:03"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-22T00:05:58"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_437 a ex:Interaction ;
+    ex:actionEndTime "2024-05-24T00:02:20"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-24T00:01:10"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_438 a ex:Interaction ;
+    ex:actionEndTime "2024-05-24T00:02:12"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-24T00:01:41"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_439 a ex:Movement ;
+    ex:actionEndTime "2024-05-27T00:02:28"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-27T00:01:14"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_44 a ex:Interaction ;
+    ex:actionEndTime "2024-01-17T00:05:38"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-17T00:04:24"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_440 a ex:Interaction ;
+    ex:actionEndTime "2024-05-27T00:04:02"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-27T00:02:38"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_441 a ex:Interaction ;
+    ex:actionEndTime "2024-05-27T00:05:16"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-27T00:03:57"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_442 a ex:Interaction ;
+    ex:actionEndTime "2024-05-28T00:01:02"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-28T00:00:31"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_443 a ex:Interaction ;
+    ex:actionEndTime "2024-05-28T00:02:29"^^xsd:dateTime ;
+    ex:actionStartTime "2024-05-28T00:01:30"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_444 a ex:Interaction ;
+    ex:actionEndTime "2024-06-04T00:02:40"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-04T00:01:20"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_445 a ex:Interaction ;
+    ex:actionEndTime "2024-06-04T00:03:34"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-04T00:02:27"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_446 a ex:Movement ;
+    ex:actionEndTime "2024-06-06T00:06:10"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-06T00:03:05"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_447 a ex:Interaction ;
+    ex:actionEndTime "2024-06-06T00:04:17"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-06T00:03:41"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_448 a ex:Interaction ;
+    ex:actionEndTime "2024-06-06T00:06:09"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-06T00:04:55"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_449 a ex:Interaction ;
+    ex:actionEndTime "2024-06-07T00:02:32"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-07T00:01:16"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_45 a ex:Interaction ;
+    ex:actionEndTime "2024-01-18T00:01:26"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-18T00:00:43"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_450 a ex:Movement ;
+    ex:actionEndTime "2024-06-07T00:08:36"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-07T00:04:56"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_451 a ex:Interaction ;
+    ex:actionEndTime "2024-06-07T00:06:02"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-07T00:05:29"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_452 a ex:Movement ;
+    ex:actionEndTime "2024-06-09T00:02:06"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-09T00:01:03"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_453 a ex:Interaction ;
+    ex:actionEndTime "2024-06-09T00:03:13"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-09T00:02:08"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_454 a ex:Interaction ;
+    ex:actionEndTime "2024-06-09T00:03:56"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-09T00:03:02"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_455 a ex:Movement ;
+    ex:actionEndTime "2024-06-10T00:07:56"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-10T00:03:58"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_456 a ex:Interaction ;
+    ex:actionEndTime "2024-06-10T00:06:36"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-10T00:05:17"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_457 a ex:Movement ;
+    ex:actionEndTime "2024-06-10T00:11:39"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-10T00:08:28"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_458 a ex:Interaction ;
+    ex:actionEndTime "2024-06-10T00:09:42"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-10T00:09:05"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_459 a ex:Interaction ;
+    ex:actionEndTime "2024-06-14T00:02:18"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-14T00:01:09"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_46 a ex:Movement ;
+    ex:actionEndTime "2024-01-18T00:03:17"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-18T00:02:00"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_460 a ex:Interaction ;
+    ex:actionEndTime "2024-06-14T00:03:11"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-14T00:02:10"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_461 a ex:Interaction ;
+    ex:actionEndTime "2024-06-15T00:02:10"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-15T00:01:05"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_462 a ex:Interaction ;
+    ex:actionEndTime "2024-06-15T00:03:15"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-15T00:02:10"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_463 a ex:Interaction ;
+    ex:actionEndTime "2024-06-19T00:01:30"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-19T00:00:45"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_464 a ex:Movement ;
+    ex:actionEndTime "2024-06-19T00:03:53"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-19T00:02:19"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_465 a ex:Interaction ;
+    ex:actionEndTime "2024-06-19T00:05:15"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-19T00:03:47"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_466 a ex:Interaction ;
+    ex:actionEndTime "2024-06-22T00:02:06"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-22T00:01:03"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_467 a ex:Interaction ;
+    ex:actionEndTime "2024-06-22T00:02:55"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-22T00:01:59"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_468 a ex:Interaction ;
+    ex:actionEndTime "2024-06-23T00:01:58"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-23T00:00:59"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_469 a ex:Movement ;
+    ex:actionEndTime "2024-06-23T00:08:07"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-23T00:04:33"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_47 a ex:Interaction ;
+    ex:actionEndTime "2024-01-18T00:04:16"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-18T00:03:08"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_470 a ex:Interaction ;
+    ex:actionEndTime "2024-06-23T00:06:11"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-23T00:05:22"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_471 a ex:Movement ;
+    ex:actionEndTime "2024-06-26T00:08:26"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-26T00:04:13"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_472 a ex:Interaction ;
+    ex:actionEndTime "2024-06-19T00:21:24"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-19T00:17:22"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_473 a ex:Interaction ;
+    ex:actionEndTime "2024-06-19T00:26:10"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-19T00:21:46"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_474 a ex:Interaction ;
+    ex:actionEndTime "2024-06-20T00:06:54"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-20T00:03:27"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_475 a ex:Interaction ;
+    ex:actionEndTime "2024-06-20T00:09:57"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-20T00:06:42"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_476 a ex:Interaction ;
+    ex:actionEndTime "2024-06-20T00:16:38"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-20T00:11:40"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_477 a ex:Interaction ;
+    ex:actionEndTime "2024-06-20T00:20:18"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-20T00:15:59"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_478 a ex:Movement ;
+    ex:actionEndTime "2024-06-25T00:14:28"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-25T00:07:14"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_479 a ex:Interaction ;
+    ex:actionEndTime "2024-06-25T00:15:10"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-25T00:11:12"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_48 a ex:Movement ;
+    ex:actionEndTime "2024-01-20T00:04:28"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-20T00:02:14"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_480 a ex:Interaction ;
+    ex:actionEndTime "2024-06-25T00:19:08"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-25T00:15:10"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_481 a ex:Interaction ;
+    ex:actionEndTime "2024-06-25T00:22:40"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-25T00:18:55"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_482 a ex:Interaction ;
+    ex:actionEndTime "2024-06-25T00:28:23"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-25T00:23:39"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_483 a ex:Movement ;
+    ex:actionEndTime "2024-06-28T00:11:34"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-28T00:05:47"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_484 a ex:Interaction ;
+    ex:actionEndTime "2024-06-28T00:14:37"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-28T00:10:12"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_485 a ex:Movement ;
+    ex:actionEndTime "2024-06-28T00:27:56"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-28T00:19:04"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_486 a ex:Interaction ;
+    ex:actionEndTime "2024-06-28T00:25:50"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-28T00:22:27"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_487 a ex:Interaction ;
+    ex:actionEndTime "2024-06-28T00:29:39"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-28T00:26:03"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_488 a ex:Movement ;
+    ex:actionEndTime "2024-06-28T00:43:23"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-28T00:34:43"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_489 a ex:Interaction ;
+    ex:actionEndTime "2024-06-28T00:43:31"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-28T00:39:07"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_49 a ex:Interaction ;
+    ex:actionEndTime "2024-01-20T00:04:38"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-20T00:03:26"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_490 a ex:Interaction ;
+    ex:actionEndTime "2024-06-29T00:09:24"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-29T00:04:42"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_491 a ex:Interaction ;
+    ex:actionEndTime "2024-06-29T00:11:30"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-29T00:08:06"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_492 a ex:Interaction ;
+    ex:actionEndTime "2024-06-29T00:14:58"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-29T00:11:32"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_493 a ex:Interaction ;
+    ex:actionEndTime "2024-06-29T00:18:24"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-29T00:14:58"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_494 a ex:Interaction ;
+    ex:actionEndTime "2024-06-30T00:07:34"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-30T00:03:47"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_495 a ex:Interaction ;
+    ex:actionEndTime "2024-06-30T00:12:29"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-30T00:08:08"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_496 a ex:Interaction ;
+    ex:actionEndTime "2024-06-30T00:15:40"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-30T00:11:54"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_497 a ex:Interaction ;
+    ex:actionEndTime "2024-06-30T00:19:38"^^xsd:dateTime ;
+    ex:actionStartTime "2024-06-30T00:15:46"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_498 a ex:Interaction ;
+    ex:actionEndTime "2024-07-01T00:06:12"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-01T00:03:06"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_499 a ex:Interaction ;
+    ex:actionEndTime "2024-07-01T00:11:12"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-01T00:07:09"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_5 a ex:Movement ;
+    ex:actionEndTime "2024-01-09T00:08:58"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-09T00:04:29"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_50 a ex:Interaction ;
+    ex:actionEndTime "2024-01-20T00:04:32"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-20T00:03:59"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_500 a ex:Interaction ;
+    ex:actionEndTime "2024-07-01T00:15:51"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-01T00:11:30"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_501 a ex:Interaction ;
+    ex:actionEndTime "2024-07-01T00:18:58"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-01T00:15:14"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_502 a ex:Interaction ;
+    ex:actionEndTime "2024-07-02T00:08:00"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-02T00:04:00"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_503 a ex:Interaction ;
+    ex:actionEndTime "2024-07-02T00:13:26"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-02T00:08:43"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_504 a ex:Interaction ;
+    ex:actionEndTime "2024-07-02T00:18:17"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-02T00:13:30"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_505 a ex:Movement ;
+    ex:actionEndTime "2024-07-02T00:29:20"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-02T00:21:25"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_506 a ex:Interaction ;
+    ex:actionEndTime "2024-07-02T00:27:33"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-02T00:24:29"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_507 a ex:Interaction ;
+    ex:actionEndTime "2024-07-05T00:09:18"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-05T00:04:39"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_508 a ex:Interaction ;
+    ex:actionEndTime "2024-07-05T00:14:27"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-05T00:09:33"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_509 a ex:Interaction ;
+    ex:actionEndTime "2024-07-05T00:16:55"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-05T00:13:14"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_51 a ex:Movement ;
+    ex:actionEndTime "2024-01-21T00:03:20"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-21T00:01:40"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_510 a ex:Interaction ;
+    ex:actionEndTime "2024-07-05T00:21:30"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-05T00:17:22"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_511 a ex:Interaction ;
+    ex:actionEndTime "2024-07-07T00:09:50"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-07T00:04:55"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_512 a ex:Interaction ;
+    ex:actionEndTime "2024-07-07T00:14:13"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-07T00:09:34"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_513 a ex:Interaction ;
+    ex:actionEndTime "2024-07-07T00:17:14"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-07T00:13:24"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_514 a ex:Interaction ;
+    ex:actionEndTime "2024-07-07T00:23:22"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-07T00:18:23"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_515 a ex:Interaction ;
+    ex:actionEndTime "2024-07-10T00:09:56"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-10T00:04:58"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_516 a ex:Interaction ;
+    ex:actionEndTime "2024-07-10T00:11:58"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-10T00:08:28"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_517 a ex:Interaction ;
+    ex:actionEndTime "2024-07-10T00:14:54"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-10T00:11:41"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_518 a ex:Interaction ;
+    ex:actionEndTime "2024-07-10T00:20:59"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-10T00:16:20"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_519 a ex:Interaction ;
+    ex:actionEndTime "2024-07-11T00:07:12"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-11T00:03:36"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_52 a ex:Interaction ;
+    ex:actionEndTime "2024-01-21T00:04:30"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-21T00:03:05"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_520 a ex:Interaction ;
+    ex:actionEndTime "2024-07-11T00:10:06"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-11T00:06:51"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_521 a ex:Interaction ;
+    ex:actionEndTime "2024-07-11T00:13:03"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-11T00:09:57"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_522 a ex:Interaction ;
+    ex:actionEndTime "2024-07-11T00:16:13"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-11T00:13:05"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_523 a ex:Movement ;
+    ex:actionEndTime "2024-07-12T00:19:04"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-12T00:09:32"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_524 a ex:Interaction ;
+    ex:actionEndTime "2024-07-12T00:16:44"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-12T00:13:08"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_525 a ex:Interaction ;
+    ex:actionEndTime "2024-07-12T00:21:06"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-12T00:17:07"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_526 a ex:Interaction ;
+    ex:actionEndTime "2024-07-12T00:26:15"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-12T00:21:41"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_527 a ex:Interaction ;
+    ex:actionEndTime "2024-07-12T00:30:31"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-12T00:26:06"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_528 a ex:Interaction ;
+    ex:actionEndTime "2024-07-13T00:06:36"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-13T00:03:18"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_529 a ex:Interaction ;
+    ex:actionEndTime "2024-07-13T00:12:36"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-13T00:07:57"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_53 a ex:Movement ;
+    ex:actionEndTime "2024-01-21T00:05:53"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-21T00:04:29"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_530 a ex:Movement ;
+    ex:actionEndTime "2024-07-13T00:26:27"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-13T00:17:12"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_531 a ex:Interaction ;
+    ex:actionEndTime "2024-07-13T00:26:30"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-13T00:21:51"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_532 a ex:Interaction ;
+    ex:actionEndTime "2024-07-13T00:28:03"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-13T00:24:57"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_533 a ex:Interaction ;
+    ex:actionEndTime "2024-07-14T00:07:40"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-14T00:03:50"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_534 a ex:Interaction ;
+    ex:actionEndTime "2024-07-14T00:13:20"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-14T00:08:35"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_535 a ex:Interaction ;
+    ex:actionEndTime "2024-07-14T00:17:53"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-14T00:13:14"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_536 a ex:Interaction ;
+    ex:actionEndTime "2024-07-14T00:19:18"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-14T00:16:16"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_537 a ex:Interaction ;
+    ex:actionEndTime "2024-07-15T00:06:14"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-15T00:03:07"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_538 a ex:Interaction ;
+    ex:actionEndTime "2024-07-15T00:09:49"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-15T00:06:28"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_539 a ex:Movement ;
+    ex:actionEndTime "2024-07-15T00:24:00"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-15T00:15:14"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_54 a ex:Interaction ;
+    ex:actionEndTime "2024-01-21T00:06:29"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-21T00:05:29"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_540 a ex:Interaction ;
+    ex:actionEndTime "2024-07-15T00:21:46"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-15T00:18:30"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_541 a ex:Interaction ;
+    ex:actionEndTime "2024-07-15T00:24:40"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-15T00:21:35"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_542 a ex:Movement ;
+    ex:actionEndTime "2024-07-17T00:11:40"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-17T00:05:50"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_543 a ex:Interaction ;
+    ex:actionEndTime "2024-07-17T00:15:42"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-17T00:10:46"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_544 a ex:Interaction ;
+    ex:actionEndTime "2024-07-17T00:16:52"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-17T00:13:49"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_545 a ex:Interaction ;
+    ex:actionEndTime "2024-07-17T00:22:13"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-17T00:18:01"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_546 a ex:Interaction ;
+    ex:actionEndTime "2024-07-17T00:25:25"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-17T00:21:43"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_547 a ex:Interaction ;
+    ex:actionEndTime "2024-07-18T00:08:14"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-18T00:04:07"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_548 a ex:Interaction ;
+    ex:actionEndTime "2024-07-18T00:10:47"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-18T00:07:27"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_549 a ex:Interaction ;
+    ex:actionEndTime "2024-07-18T00:15:35"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-18T00:11:31"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_55 a ex:Interaction ;
+    ex:actionEndTime "2024-01-23T00:01:34"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-23T00:00:47"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_550 a ex:Interaction ;
+    ex:actionEndTime "2024-07-18T00:18:57"^^xsd:dateTime ;
+    ex:actionStartTime "2024-07-18T00:15:14"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_56 a ex:Movement ;
+    ex:actionEndTime "2024-01-23T00:06:23"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-23T00:03:35"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_57 a ex:Interaction ;
+    ex:actionEndTime "2024-01-23T00:04:59"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-23T00:04:17"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_58 a ex:Interaction ;
+    ex:actionEndTime "2024-01-25T00:02:52"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-25T00:01:26"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_59 a ex:Movement ;
+    ex:actionEndTime "2024-01-25T00:04:34"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-25T00:03:00"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_6 a ex:Interaction ;
+    ex:actionEndTime "2024-01-09T00:05:47"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-09T00:05:08"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_60 a ex:Interaction ;
+    ex:actionEndTime "2024-01-25T00:04:12"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-25T00:03:36"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_61 a ex:Interaction ;
+    ex:actionEndTime "2024-01-26T00:02:40"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-26T00:01:20"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_62 a ex:Interaction ;
+    ex:actionEndTime "2024-01-26T00:03:54"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-26T00:02:37"^^xsd:dateTime ;
+    ex:has_object ex:Chair1 .
+
+ex:action_63 a ex:Interaction ;
+    ex:actionEndTime "2024-01-29T00:02:00"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-29T00:01:00"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_64 a ex:Movement ;
+    ex:actionEndTime "2024-01-29T00:03:56"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-29T00:02:28"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_65 a ex:Interaction ;
+    ex:actionEndTime "2024-01-29T00:04:54"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-29T00:03:41"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_66 a ex:Movement ;
+    ex:actionEndTime "2024-01-30T00:03:20"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-30T00:01:40"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_67 a ex:Interaction ;
+    ex:actionEndTime "2024-01-30T00:03:32"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-30T00:02:36"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_68 a ex:Movement ;
+    ex:actionEndTime "2024-01-30T00:06:10"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-30T00:04:23"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_69 a ex:Interaction ;
+    ex:actionEndTime "2024-01-30T00:05:35"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-30T00:04:59"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_7 a ex:Movement ;
+    ex:actionEndTime "2024-01-10T00:06:22"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-10T00:03:11"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_70 a ex:Interaction ;
+    ex:actionEndTime "2024-02-02T00:02:42"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-02T00:01:21"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_71 a ex:Movement ;
+    ex:actionEndTime "2024-02-02T00:08:13"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-02T00:04:47"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_72 a ex:Interaction ;
+    ex:actionEndTime "2024-02-02T00:07:11"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-02T00:05:59"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_73 a ex:Movement ;
+    ex:actionEndTime "2024-02-04T00:04:48"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-04T00:02:24"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_74 a ex:Interaction ;
+    ex:actionEndTime "2024-02-04T00:04:44"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-04T00:03:34"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_75 a ex:Movement ;
+    ex:actionEndTime "2024-02-04T00:12:42"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-04T00:08:08"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_76 a ex:Interaction ;
+    ex:actionEndTime "2024-02-04T00:10:46"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-04T00:09:27"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_77 a ex:Interaction ;
+    ex:actionEndTime "2024-02-06T00:02:32"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-06T00:01:16"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_78 a ex:Movement ;
+    ex:actionEndTime "2024-02-06T00:08:04"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-06T00:04:40"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_79 a ex:Interaction ;
+    ex:actionEndTime "2024-02-06T00:06:32"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-06T00:05:36"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_8 a ex:Interaction ;
+    ex:actionEndTime "2024-01-10T00:04:15"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-10T00:03:43"^^xsd:dateTime ;
+    ex:has_object ex:Screen .
+
+ex:action_80 a ex:Interaction ;
+    ex:actionEndTime "2024-02-08T00:01:00"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-08T00:00:30"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_81 a ex:Interaction ;
+    ex:actionEndTime "2024-02-08T00:02:22"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-08T00:01:26"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_82 a ex:Movement ;
+    ex:actionEndTime "2024-02-09T00:04:46"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-09T00:02:23"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_83 a ex:Interaction ;
+    ex:actionEndTime "2024-02-09T00:04:37"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-09T00:03:30"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_84 a ex:Movement ;
+    ex:actionEndTime "2024-02-09T00:06:52"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-09T00:05:11"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_85 a ex:Interaction ;
+    ex:actionEndTime "2024-02-09T00:07:51"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-09T00:06:31"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_86 a ex:Interaction ;
+    ex:actionEndTime "2024-02-11T00:01:36"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-11T00:00:48"^^xsd:dateTime ;
+    ex:has_object ex:Chair2 .
+
+ex:action_87 a ex:Interaction ;
+    ex:actionEndTime "2024-02-11T00:02:50"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-11T00:01:49"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_88 a ex:Interaction ;
+    ex:actionEndTime "2024-02-13T00:01:52"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-13T00:00:56"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_89 a ex:Movement ;
+    ex:actionEndTime "2024-02-13T00:03:06"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-13T00:02:01"^^xsd:dateTime ;
+    ex:has_room ex:Classroom .
+
+ex:action_9 a ex:Interaction ;
+    ex:actionEndTime "2024-01-12T00:02:26"^^xsd:dateTime ;
+    ex:actionStartTime "2024-01-12T00:01:13"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_90 a ex:Interaction ;
+    ex:actionEndTime "2024-02-13T00:03:51"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-13T00:02:56"^^xsd:dateTime ;
+    ex:has_object ex:Desk .
+
+ex:action_91 a ex:Interaction ;
+    ex:actionEndTime "2024-02-15T00:01:44"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-15T00:00:52"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_92 a ex:Interaction ;
+    ex:actionEndTime "2024-02-15T00:03:50"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-15T00:02:21"^^xsd:dateTime ;
+    ex:has_object ex:Book .
+
+ex:action_93 a ex:Interaction ;
+    ex:actionEndTime "2024-02-16T00:01:24"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-16T00:00:42"^^xsd:dateTime ;
+    ex:has_object ex:Computer .
+
+ex:action_94 a ex:Movement ;
+    ex:actionEndTime "2024-02-16T00:04:48"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-16T00:02:45"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+ex:action_95 a ex:Interaction ;
+    ex:actionEndTime "2024-02-16T00:05:45"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-16T00:04:15"^^xsd:dateTime ;
+    ex:has_object ex:Table .
+
+ex:action_96 a ex:Interaction ;
+    ex:actionEndTime "2024-02-19T00:01:54"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-19T00:00:57"^^xsd:dateTime ;
+    ex:has_object ex:Student .
+
+ex:action_97 a ex:Movement ;
+    ex:actionEndTime "2024-02-19T00:05:55"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-19T00:03:26"^^xsd:dateTime ;
+    ex:has_room ex:Auditorium .
+
+ex:action_98 a ex:Interaction ;
+    ex:actionEndTime "2024-02-19T00:06:12"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-19T00:04:49"^^xsd:dateTime ;
+    ex:has_object ex:Hand .
+
+ex:action_99 a ex:Movement ;
+    ex:actionEndTime "2024-02-20T00:04:30"^^xsd:dateTime ;
+    ex:actionStartTime "2024-02-20T00:02:15"^^xsd:dateTime ;
+    ex:has_room ex:Café .
+
+:Interaction a owl:Class ;
+    rdfs:subClassOf :Action .
+
+:Movement a owl:Class ;
+    rdfs:subClassOf :Action .
+
+:Teacher a owl:Class ;
+    rdfs:subClassOf :User .
+
+:individualRoom a owl:Class ;
+    rdfs:subClassOf :Room .
+
+:is_connected_to_object a owl:ObjectProperty ;
+    rdfs:domain :Object ;
+    rdfs:range :Object ;
+    rdfs:subPropertyOf :is_connected_to ;
+    owl:inverseOf :is_connected_to_object .
+
+:is_connected_to_room a owl:ObjectProperty ;
+    rdfs:domain :Room ;
+    rdfs:range :Room ;
+    rdfs:subPropertyOf :is_connected_to ;
+    owl:inverseOf :is_connected_to_room .
+
+:is_in a owl:ObjectProperty ;
+    rdfs:domain :Object,
+        :User ;
+    rdfs:range :Room .
+
+:nonInteractableObject a owl:Class ;
+    rdfs:subClassOf :Object .
+
+:interactableObject a owl:Class ;
+    rdfs:subClassOf :Object ;
+    owl:disjointWith :nonInteractableObject .
+
+:is_connected_to a owl:ObjectProperty .
+
+:Action a owl:Class .
+
+:Object a owl:Class .
+
+:Room a owl:Class .
+
+:User a owl:Class .
+
+ex:Desk a ex:interactableObject ;
+    ex:id "Desk"^^xsd:string .
+
+ex:Screen a ex:interactableObject ;
+    ex:id "Screen"^^xsd:string .
+
+ex:Book a ex:interactableObject ;
+    ex:id "Book"^^xsd:string .
+
+ex:Chair1 a ex:interactableObject ;
+    ex:id "Chair1"^^xsd:string .
+
+ex:Computer a ex:interactableObject ;
+    ex:id "Computer"^^xsd:string .
+
+ex:Chair2 a ex:interactableObject ;
+    ex:id "Chair2"^^xsd:string .
+
+ex:Table a ex:interactableObject ;
+    ex:id "Table"^^xsd:string .
+
+ex:Student a ex:interactableObject ;
+    ex:id "Student"^^xsd:string .
+
+ex:Auditorium a ex:Room ;
+    ex:id "Auditorium"^^xsd:string .
+
+ex:Hand a ex:interactableObject ;
+    ex:id "Hand"^^xsd:string .
+
+ex:Classroom a ex:Room ;
+    ex:id "Classroom"^^xsd:string .
+
+ex:Café a ex:Room ;
+    ex:id "Café"^^xsd:string .
+

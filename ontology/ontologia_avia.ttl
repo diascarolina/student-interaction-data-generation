@@ -1,0 +1,177 @@
+@prefix : <http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/> .
+
+<http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia> rdf:type owl:Ontology .
+
+#################################################################
+#    Object Properties
+#################################################################
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia#has_action
+:has_action rdf:type owl:ObjectProperty ;
+            rdfs:domain :User ;
+            rdfs:range :Action .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia#has_object
+:has_object rdf:type owl:ObjectProperty ;
+            rdfs:domain :Interaction ;
+            rdfs:range :interactableObject .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia#has_room
+:has_room rdf:type owl:ObjectProperty ;
+          rdfs:domain :Movement ;
+          rdfs:range :Room .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia#moves_to
+:moves_to rdf:type owl:ObjectProperty ;
+          rdfs:domain :User ;
+          rdfs:range :Room .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/contains
+:contains rdf:type owl:ObjectProperty ;
+          owl:inverseOf :is_in ;
+          rdfs:domain :Room ;
+          rdfs:range :Object ,
+                     :User .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/interacts_with
+:interacts_with rdf:type owl:ObjectProperty ;
+                rdfs:subPropertyOf owl:topObjectProperty ;
+                rdfs:domain :User ;
+                rdfs:range :User ,
+                           :interactableObject .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/is_connected_to
+:is_connected_to rdf:type owl:ObjectProperty .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/is_connected_to_object
+:is_connected_to_object rdf:type owl:ObjectProperty ;
+                        rdfs:subPropertyOf :is_connected_to ;
+                        owl:inverseOf :is_connected_to_object ;
+                        rdfs:domain :Object ;
+                        rdfs:range :Object .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/is_connected_to_room
+:is_connected_to_room rdf:type owl:ObjectProperty ;
+                      rdfs:subPropertyOf :is_connected_to ;
+                      owl:inverseOf :is_connected_to_room ;
+                      rdfs:domain :Room ;
+                      rdfs:range :Room .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/is_in
+:is_in rdf:type owl:ObjectProperty ;
+       rdfs:domain :Object ,
+                   :User ;
+       rdfs:range :Room .
+
+
+#################################################################
+#    Data properties
+#################################################################
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/actionEndTime
+:actionEndTime rdf:type owl:DatatypeProperty ;
+               rdfs:domain :User ;
+               rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/actionStartTime
+:actionStartTime rdf:type owl:DatatypeProperty ;
+                 rdfs:domain :User ;
+                 rdfs:range xsd:dateTime .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/description
+:description rdf:type owl:DatatypeProperty ;
+             rdfs:domain :Object ,
+                         :Room ,
+                         :User ;
+             rdfs:range xsd:string .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/id
+:id rdf:type owl:DatatypeProperty ;
+    rdfs:domain :Object ,
+                :Room ,
+                :User ;
+    rdfs:range xsd:string .
+
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia#Action
+:Action rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia#Interaction
+:Interaction rdf:type owl:Class ;
+             rdfs:subClassOf :Action .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia#Movement
+:Movement rdf:type owl:Class ;
+          rdfs:subClassOf :Action .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/Object
+:Object rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/Room
+:Room rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/Student
+:Student rdf:type owl:Class ;
+         rdfs:subClassOf :User ;
+         owl:disjointWith :Teacher .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/Teacher
+:Teacher rdf:type owl:Class ;
+         rdfs:subClassOf :User .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/User
+:User rdf:type owl:Class .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/collectiveRoom
+:collectiveRoom rdf:type owl:Class ;
+                rdfs:subClassOf :Room ;
+                owl:disjointWith :individualRoom .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/individualRoom
+:individualRoom rdf:type owl:Class ;
+                rdfs:subClassOf :Room .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/interactableObject
+:interactableObject rdf:type owl:Class ;
+                    rdfs:subClassOf :Object ;
+                    owl:disjointWith :nonInteractableObject .
+
+
+###  http://www.semanticweb.org/carolinadias/ontologies/2024/6/ontologia_avia/nonInteractableObject
+:nonInteractableObject rdf:type owl:Class ;
+                       rdfs:subClassOf :Object .
+
+
+###  Generated by the OWL API (version 4.5.29.2024-05-13T12:11:03Z) https://github.com/owlcs/owlapi

@@ -1,0 +1,552 @@
+username,engagement_level,timestamp,activity_type,room,object,duration,details
+Alexandre da Luz,1,2024-01-01 00:03:09,movement,Auditorium,,00:03:09,Moved to Auditorium
+Alexandre da Luz,1,2024-01-01 00:04:24,interaction,Auditorium,Hand,00:01:15,Interacted with Hand
+Alexandre da Luz,1,2024-01-02 00:01:03,interaction,Auditorium,Screen,00:01:03,Interacted with Screen
+Alexandre da Luz,1,2024-01-04 00:01:07,interaction,Auditorium,Hand,00:01:07,Interacted with Hand
+Alexandre da Luz,1,2024-01-05 00:00:54,interaction,Auditorium,Chair1,00:00:54,Interacted with Chair1
+Alexandre da Luz,1,2024-01-09 00:04:29,movement,Classroom,,00:04:29,Moved from Auditorium to Classroom
+Alexandre da Luz,1,2024-01-09 00:05:08,interaction,Classroom,Computer,00:00:39,Interacted with Computer
+Alexandre da Luz,1,2024-01-10 00:03:11,movement,Auditorium,,00:03:11,Moved from Classroom to Auditorium
+Alexandre da Luz,1,2024-01-10 00:03:43,interaction,Auditorium,Screen,00:00:32,Interacted with Screen
+Alexandre da Luz,1,2024-01-12 00:01:13,interaction,Auditorium,Hand,00:01:13,Interacted with Hand
+Alexandre da Luz,1,2024-01-13 00:01:26,interaction,Auditorium,Screen,00:01:26,Interacted with Screen
+Alexandre da Luz,1,2024-01-16 00:01:04,interaction,Auditorium,Chair1,00:01:04,Interacted with Chair1
+Alexandre da Luz,1,2024-01-19 00:00:55,interaction,Auditorium,Screen,00:00:55,Interacted with Screen
+Alexandre da Luz,1,2024-01-20 00:01:27,interaction,Auditorium,Chair1,00:01:27,Interacted with Chair1
+Alexandre da Luz,1,2024-01-21 00:02:21,movement,Classroom,,00:02:21,Moved from Auditorium to Classroom
+Alexandre da Luz,1,2024-01-21 00:03:22,interaction,Classroom,Book,00:01:01,Interacted with Book
+Alexandre da Luz,1,2024-01-22 00:00:54,interaction,Classroom,Computer,00:00:54,Interacted with Computer
+Alexandre da Luz,1,2024-01-24 00:02:27,movement,Café,,00:02:27,Moved from Classroom to Café
+Alexandre da Luz,1,2024-01-24 00:03:48,interaction,Café,Table,00:01:21,Interacted with Table
+Alexandre da Luz,1,2024-01-26 00:02:00,movement,Auditorium,,00:02:00,Moved from Café to Auditorium
+Alexandre da Luz,1,2024-01-26 00:03:13,interaction,Auditorium,Hand,00:01:13,Interacted with Hand
+Alexandre da Luz,1,2024-02-02 00:00:32,interaction,Auditorium,Chair1,00:00:32,Interacted with Chair1
+Isabelly Gonçalves,1,2024-01-01 00:02:34,movement,Café,,00:02:34,Moved to Café
+Isabelly Gonçalves,1,2024-01-01 00:04:01,interaction,Café,Chair2,00:01:27,Interacted with Chair2
+Isabelly Gonçalves,1,2024-01-01 00:06:56,movement,Auditorium,,00:02:55,Moved from Café to Auditorium
+Isabelly Gonçalves,1,2024-01-01 00:07:31,interaction,Auditorium,Hand,00:00:35,Interacted with Hand
+Isabelly Gonçalves,1,2024-01-02 00:04:55,movement,Classroom,,00:04:55,Moved from Auditorium to Classroom
+Isabelly Gonçalves,1,2024-01-02 00:05:27,interaction,Classroom,Desk,00:00:32,Interacted with Desk
+Isabelly Gonçalves,1,2024-01-02 00:09:27,movement,Café,,00:04:00,Moved from Classroom to Café
+Isabelly Gonçalves,1,2024-01-02 00:10:35,interaction,Café,Student,00:01:08,Interacted with Student
+Isabelly Gonçalves,1,2024-01-10 00:01:25,movement,Auditorium,,00:01:25,Moved from Café to Auditorium
+Isabelly Gonçalves,1,2024-01-10 00:01:58,interaction,Auditorium,Screen,00:00:33,Interacted with Screen
+Isabelly Gonçalves,1,2024-01-10 00:02:42,interaction,Auditorium,Hand,00:00:44,Interacted with Hand
+Isabelly Gonçalves,1,2024-01-11 00:01:06,interaction,Auditorium,Chair1,00:01:06,Interacted with Chair1
+Isabelly Gonçalves,1,2024-01-11 00:01:49,interaction,Auditorium,Hand,00:00:43,Interacted with Hand
+Isabelly Gonçalves,1,2024-01-13 00:01:30,interaction,Auditorium,Hand,00:01:30,Interacted with Hand
+Isabelly Gonçalves,1,2024-01-13 00:02:29,interaction,Auditorium,Hand,00:00:59,Interacted with Hand
+Isabelly Gonçalves,1,2024-01-14 00:01:00,interaction,Auditorium,Hand,00:01:00,Interacted with Hand
+Isabelly Gonçalves,1,2024-01-14 00:04:51,movement,Classroom,,00:03:51,Moved from Auditorium to Classroom
+Isabelly Gonçalves,1,2024-01-14 00:05:54,interaction,Classroom,Computer,00:01:03,Interacted with Computer
+Isabelly Gonçalves,1,2024-01-15 00:01:06,interaction,Classroom,Desk,00:01:06,Interacted with Desk
+Isabelly Gonçalves,1,2024-01-15 00:01:56,interaction,Classroom,Computer,00:00:50,Interacted with Computer
+Isabelly Gonçalves,1,2024-01-17 00:00:37,interaction,Classroom,Desk,00:00:37,Interacted with Desk
+Isabelly Gonçalves,1,2024-01-17 00:03:10,movement,Auditorium,,00:02:33,Moved from Classroom to Auditorium
+Isabelly Gonçalves,1,2024-01-17 00:04:24,interaction,Auditorium,Chair1,00:01:14,Interacted with Chair1
+Isabelly Gonçalves,1,2024-01-18 00:00:43,interaction,Auditorium,Chair1,00:00:43,Interacted with Chair1
+Isabelly Gonçalves,1,2024-01-18 00:02:00,movement,Café,,00:01:17,Moved from Auditorium to Café
+Isabelly Gonçalves,1,2024-01-18 00:03:08,interaction,Café,Chair2,00:01:08,Interacted with Chair2
+Isabelly Gonçalves,1,2024-01-20 00:02:14,movement,Auditorium,,00:02:14,Moved from Café to Auditorium
+Isabelly Gonçalves,1,2024-01-20 00:03:26,interaction,Auditorium,Hand,00:01:12,Interacted with Hand
+Isabelly Gonçalves,1,2024-01-20 00:03:59,interaction,Auditorium,Chair1,00:00:33,Interacted with Chair1
+Isabelly Gonçalves,1,2024-01-21 00:01:40,movement,Café,,00:01:40,Moved from Auditorium to Café
+Isabelly Gonçalves,1,2024-01-21 00:03:05,interaction,Café,Student,00:01:25,Interacted with Student
+Isabelly Gonçalves,1,2024-01-21 00:04:29,movement,Auditorium,,00:01:24,Moved from Café to Auditorium
+Isabelly Gonçalves,1,2024-01-21 00:05:29,interaction,Auditorium,Screen,00:01:00,Interacted with Screen
+Isabelly Gonçalves,1,2024-01-23 00:00:47,interaction,Auditorium,Hand,00:00:47,Interacted with Hand
+Isabelly Gonçalves,1,2024-01-23 00:03:35,movement,Classroom,,00:02:48,Moved from Auditorium to Classroom
+Isabelly Gonçalves,1,2024-01-23 00:04:17,interaction,Classroom,Computer,00:00:42,Interacted with Computer
+Isabelly Gonçalves,1,2024-01-25 00:01:26,interaction,Classroom,Computer,00:01:26,Interacted with Computer
+Isabelly Gonçalves,1,2024-01-25 00:03:00,movement,Auditorium,,00:01:34,Moved from Classroom to Auditorium
+Isabelly Gonçalves,1,2024-01-25 00:03:36,interaction,Auditorium,Screen,00:00:36,Interacted with Screen
+Isabelly Gonçalves,1,2024-01-26 00:01:20,interaction,Auditorium,Chair1,00:01:20,Interacted with Chair1
+Isabelly Gonçalves,1,2024-01-26 00:02:37,interaction,Auditorium,Chair1,00:01:17,Interacted with Chair1
+Isabelly Gonçalves,1,2024-01-29 00:01:00,interaction,Auditorium,Screen,00:01:00,Interacted with Screen
+Isabelly Gonçalves,1,2024-01-29 00:02:28,movement,Classroom,,00:01:28,Moved from Auditorium to Classroom
+Isabelly Gonçalves,1,2024-01-29 00:03:41,interaction,Classroom,Book,00:01:13,Interacted with Book
+Isabelly Gonçalves,1,2024-01-30 00:01:40,movement,Café,,00:01:40,Moved from Classroom to Café
+Isabelly Gonçalves,1,2024-01-30 00:02:36,interaction,Café,Chair2,00:00:56,Interacted with Chair2
+Isabelly Gonçalves,1,2024-01-30 00:04:23,movement,Auditorium,,00:01:47,Moved from Café to Auditorium
+Isabelly Gonçalves,1,2024-01-30 00:04:59,interaction,Auditorium,Screen,00:00:36,Interacted with Screen
+Isabelly Gonçalves,1,2024-02-02 00:01:21,interaction,Auditorium,Hand,00:01:21,Interacted with Hand
+Isabelly Gonçalves,1,2024-02-02 00:04:47,movement,Classroom,,00:03:26,Moved from Auditorium to Classroom
+Isabelly Gonçalves,1,2024-02-02 00:05:59,interaction,Classroom,Book,00:01:12,Interacted with Book
+Isabelly Gonçalves,1,2024-02-04 00:02:24,movement,Café,,00:02:24,Moved from Classroom to Café
+Isabelly Gonçalves,1,2024-02-04 00:03:34,interaction,Café,Student,00:01:10,Interacted with Student
+Isabelly Gonçalves,1,2024-02-04 00:08:08,movement,Classroom,,00:04:34,Moved from Café to Classroom
+Isabelly Gonçalves,1,2024-02-04 00:09:27,interaction,Classroom,Desk,00:01:19,Interacted with Desk
+Isabelly Gonçalves,1,2024-02-06 00:01:16,interaction,Classroom,Computer,00:01:16,Interacted with Computer
+Isabelly Gonçalves,1,2024-02-06 00:04:40,movement,Café,,00:03:24,Moved from Classroom to Café
+Isabelly Gonçalves,1,2024-02-06 00:05:36,interaction,Café,Student,00:00:56,Interacted with Student
+Isabelly Gonçalves,1,2024-02-08 00:00:30,interaction,Café,Table,00:00:30,Interacted with Table
+Isabelly Gonçalves,1,2024-02-08 00:01:26,interaction,Café,Table,00:00:56,Interacted with Table
+Isabelly Gonçalves,1,2024-02-09 00:02:23,movement,Classroom,,00:02:23,Moved from Café to Classroom
+Isabelly Gonçalves,1,2024-02-09 00:03:30,interaction,Classroom,Computer,00:01:07,Interacted with Computer
+Isabelly Gonçalves,1,2024-02-09 00:05:11,movement,Café,,00:01:41,Moved from Classroom to Café
+Isabelly Gonçalves,1,2024-02-09 00:06:31,interaction,Café,Chair2,00:01:20,Interacted with Chair2
+Isabelly Gonçalves,1,2024-02-11 00:00:48,interaction,Café,Chair2,00:00:48,Interacted with Chair2
+Isabelly Gonçalves,1,2024-02-11 00:01:49,interaction,Café,Table,00:01:01,Interacted with Table
+Isabelly Gonçalves,1,2024-02-13 00:00:56,interaction,Café,Table,00:00:56,Interacted with Table
+Isabelly Gonçalves,1,2024-02-13 00:02:01,movement,Classroom,,00:01:05,Moved from Café to Classroom
+Isabelly Gonçalves,1,2024-02-13 00:02:56,interaction,Classroom,Desk,00:00:55,Interacted with Desk
+Isabelly Gonçalves,1,2024-02-15 00:00:52,interaction,Classroom,Computer,00:00:52,Interacted with Computer
+Isabelly Gonçalves,1,2024-02-15 00:02:21,interaction,Classroom,Book,00:01:29,Interacted with Book
+Isabelly Gonçalves,1,2024-02-16 00:00:42,interaction,Classroom,Computer,00:00:42,Interacted with Computer
+Isabelly Gonçalves,1,2024-02-16 00:02:45,movement,Café,,00:02:03,Moved from Classroom to Café
+Isabelly Gonçalves,1,2024-02-16 00:04:15,interaction,Café,Table,00:01:30,Interacted with Table
+Isabelly Gonçalves,1,2024-02-19 00:00:57,interaction,Café,Student,00:00:57,Interacted with Student
+Isabelly Gonçalves,1,2024-02-19 00:03:26,movement,Auditorium,,00:02:29,Moved from Café to Auditorium
+Isabelly Gonçalves,1,2024-02-19 00:04:49,interaction,Auditorium,Hand,00:01:23,Interacted with Hand
+Isabelly Gonçalves,1,2024-02-20 00:02:15,movement,Café,,00:02:15,Moved from Auditorium to Café
+Isabelly Gonçalves,1,2024-02-20 00:03:42,interaction,Café,Student,00:01:27,Interacted with Student
+Isabelly Gonçalves,1,2024-02-20 00:04:31,interaction,Café,Table,00:00:49,Interacted with Table
+Isabelly Gonçalves,1,2024-02-22 00:02:33,movement,Classroom,,00:02:33,Moved from Café to Classroom
+Isabelly Gonçalves,1,2024-02-22 00:03:30,interaction,Classroom,Book,00:00:57,Interacted with Book
+Isabelly Gonçalves,1,2024-02-22 00:04:06,interaction,Classroom,Computer,00:00:36,Interacted with Computer
+Isabelly Gonçalves,1,2024-02-23 00:01:08,interaction,Classroom,Desk,00:01:08,Interacted with Desk
+Isabelly Gonçalves,1,2024-02-23 00:02:03,interaction,Classroom,Desk,00:00:55,Interacted with Desk
+Isabelly Gonçalves,1,2024-02-24 00:01:27,interaction,Classroom,Desk,00:01:27,Interacted with Desk
+Isabelly Gonçalves,1,2024-02-24 00:04:37,movement,Café,,00:03:10,Moved from Classroom to Café
+Isabelly Gonçalves,1,2024-02-24 00:05:36,interaction,Café,Chair2,00:00:59,Interacted with Chair2
+Isabelly Gonçalves,1,2024-02-26 00:01:21,movement,Auditorium,,00:01:21,Moved from Café to Auditorium
+Isabelly Gonçalves,1,2024-02-26 00:02:48,interaction,Auditorium,Screen,00:01:27,Interacted with Screen
+Isabelly Gonçalves,1,2024-02-26 00:07:09,movement,Café,,00:04:21,Moved from Auditorium to Café
+Isabelly Gonçalves,1,2024-02-26 00:08:34,interaction,Café,Student,00:01:25,Interacted with Student
+Isabelly Gonçalves,1,2024-03-01 00:04:38,movement,Auditorium,,00:04:38,Moved from Café to Auditorium
+Isabelly Gonçalves,1,2024-03-01 00:05:53,interaction,Auditorium,Chair1,00:01:15,Interacted with Chair1
+Isabelly Gonçalves,1,2024-03-01 00:10:46,movement,Café,,00:04:53,Moved from Auditorium to Café
+Isabelly Gonçalves,1,2024-03-01 00:12:06,interaction,Café,Student,00:01:20,Interacted with Student
+Isabelly Gonçalves,1,2024-03-05 00:03:17,movement,Auditorium,,00:03:17,Moved from Café to Auditorium
+Isabelly Gonçalves,1,2024-03-05 00:04:26,interaction,Auditorium,Screen,00:01:09,Interacted with Screen
+Isabelly Gonçalves,1,2024-03-05 00:08:21,movement,Classroom,,00:03:55,Moved from Auditorium to Classroom
+Isabelly Gonçalves,1,2024-03-05 00:09:11,interaction,Classroom,Book,00:00:50,Interacted with Book
+Isabelly Gonçalves,1,2024-03-06 00:04:33,movement,Café,,00:04:33,Moved from Classroom to Café
+Isabelly Gonçalves,1,2024-03-06 00:05:53,interaction,Café,Student,00:01:20,Interacted with Student
+Isabelly Gonçalves,1,2024-03-31 00:02:55,interaction,Auditorium,Screen,00:00:37,Interacted with Screen
+Isabelly Gonçalves,1,2024-03-31 00:04:57,movement,Classroom,,00:02:02,Moved from Auditorium to Classroom
+Isabelly Gonçalves,1,2024-03-31 00:06:06,interaction,Classroom,Desk,00:01:09,Interacted with Desk
+Isabelly Gonçalves,1,2024-04-01 00:01:15,interaction,Classroom,Computer,00:01:15,Interacted with Computer
+Isabelly Gonçalves,1,2024-04-01 00:04:17,movement,Auditorium,,00:03:02,Moved from Classroom to Auditorium
+Isabelly Gonçalves,1,2024-04-01 00:05:42,interaction,Auditorium,Hand,00:01:25,Interacted with Hand
+Isabelly Gonçalves,1,2024-04-02 00:03:00,movement,Café,,00:03:00,Moved from Auditorium to Café
+Isabelly Gonçalves,1,2024-04-02 00:03:34,interaction,Café,Student,00:00:34,Interacted with Student
+Isabelly Gonçalves,1,2024-04-02 00:04:45,movement,Classroom,,00:01:11,Moved from Café to Classroom
+Isabelly Gonçalves,1,2024-04-02 00:05:32,interaction,Classroom,Desk,00:00:47,Interacted with Desk
+Isabelly Gonçalves,1,2024-04-03 00:01:55,movement,Auditorium,,00:01:55,Moved from Classroom to Auditorium
+Isabelly Gonçalves,1,2024-04-03 00:02:33,interaction,Auditorium,Screen,00:00:38,Interacted with Screen
+Isabelly Gonçalves,1,2024-04-03 00:05:16,movement,Classroom,,00:02:43,Moved from Auditorium to Classroom
+Isabelly Gonçalves,1,2024-04-03 00:05:53,interaction,Classroom,Computer,00:00:37,Interacted with Computer
+Isabelly Gonçalves,1,2024-04-04 00:01:27,movement,Auditorium,,00:01:27,Moved from Classroom to Auditorium
+Isabelly Gonçalves,1,2024-04-04 00:02:51,interaction,Auditorium,Hand,00:01:24,Interacted with Hand
+Isabelly Gonçalves,1,2024-04-04 00:03:37,interaction,Auditorium,Screen,00:00:46,Interacted with Screen
+Isabelly Gonçalves,1,2024-04-06 00:00:40,interaction,Auditorium,Chair1,00:00:40,Interacted with Chair1
+Isabelly Gonçalves,1,2024-04-06 00:01:28,interaction,Auditorium,Hand,00:00:48,Interacted with Hand
+Isabelly Gonçalves,1,2024-04-08 00:03:28,movement,Classroom,,00:03:28,Moved from Auditorium to Classroom
+Isabelly Gonçalves,1,2024-04-08 00:04:21,interaction,Classroom,Desk,00:00:53,Interacted with Desk
+Isabelly Gonçalves,1,2024-04-08 00:05:30,interaction,Classroom,Book,00:01:09,Interacted with Book
+Isabelly Gonçalves,1,2024-04-09 00:00:51,interaction,Classroom,Book,00:00:51,Interacted with Book
+Isabelly Gonçalves,1,2024-04-09 00:01:53,movement,Café,,00:01:02,Moved from Classroom to Café
+Isabelly Gonçalves,1,2024-04-09 00:03:04,interaction,Café,Student,00:01:11,Interacted with Student
+Isabelly Gonçalves,1,2024-04-12 00:01:16,movement,Auditorium,,00:01:16,Moved from Café to Auditorium
+Isabelly Gonçalves,1,2024-04-12 00:02:06,interaction,Auditorium,Hand,00:00:50,Interacted with Hand
+Isabelly Gonçalves,1,2024-04-12 00:03:33,interaction,Auditorium,Screen,00:01:27,Interacted with Screen
+Isabelly Gonçalves,1,2024-04-13 00:04:55,movement,Classroom,,00:04:55,Moved from Auditorium to Classroom
+Isabelly Gonçalves,1,2024-04-13 00:06:13,interaction,Classroom,Desk,00:01:18,Interacted with Desk
+Isabelly Gonçalves,1,2024-04-13 00:06:48,interaction,Classroom,Book,00:00:35,Interacted with Book
+Isabelly Gonçalves,1,2024-04-14 00:02:17,movement,Café,,00:02:17,Moved from Classroom to Café
+Isabelly Gonçalves,1,2024-04-14 00:03:42,interaction,Café,Chair2,00:01:25,Interacted with Chair2
+Isabelly Gonçalves,1,2024-04-14 00:08:33,movement,Auditorium,,00:04:51,Moved from Café to Auditorium
+Isabelly Gonçalves,1,2024-04-14 00:09:07,interaction,Auditorium,Hand,00:00:34,Interacted with Hand
+Isabelly Gonçalves,1,2024-04-16 00:01:28,movement,Café,,00:01:28,Moved from Auditorium to Café
+Isabelly Gonçalves,1,2024-04-16 00:02:57,interaction,Café,Student,00:01:29,Interacted with Student
+Isabelly Gonçalves,1,2024-04-16 00:06:51,movement,Auditorium,,00:03:54,Moved from Café to Auditorium
+Isabelly Gonçalves,1,2024-04-16 00:08:02,interaction,Auditorium,Hand,00:01:11,Interacted with Hand
+Isabelly Gonçalves,1,2024-04-17 00:01:15,interaction,Auditorium,Hand,00:01:15,Interacted with Hand
+Isabelly Gonçalves,1,2024-04-17 00:02:12,interaction,Auditorium,Screen,00:00:57,Interacted with Screen
+Isabelly Gonçalves,1,2024-04-25 00:04:03,movement,Café,,00:04:03,Moved from Auditorium to Café
+Isabelly Gonçalves,1,2024-04-25 00:05:04,interaction,Café,Chair2,00:01:01,Interacted with Chair2
+Isabelly Gonçalves,1,2024-04-25 00:06:02,interaction,Café,Chair2,00:00:58,Interacted with Chair2
+Isabelly Gonçalves,1,2024-04-26 00:01:26,movement,Classroom,,00:01:26,Moved from Café to Classroom
+Isabelly Gonçalves,1,2024-04-26 00:02:30,interaction,Classroom,Computer,00:01:04,Interacted with Computer
+Isabelly Gonçalves,1,2024-04-26 00:03:29,interaction,Classroom,Computer,00:00:59,Interacted with Computer
+Isabelly Gonçalves,1,2024-04-28 00:02:23,movement,Café,,00:02:23,Moved from Classroom to Café
+Isabelly Gonçalves,1,2024-04-28 00:03:28,interaction,Café,Chair2,00:01:05,Interacted with Chair2
+Isabelly Gonçalves,1,2024-04-28 00:06:41,movement,Auditorium,,00:03:13,Moved from Café to Auditorium
+Isabelly Gonçalves,1,2024-04-28 00:07:52,interaction,Auditorium,Hand,00:01:11,Interacted with Hand
+Isabelly Gonçalves,1,2024-04-30 00:04:10,movement,Café,,00:04:10,Moved from Auditorium to Café
+Isabelly Gonçalves,1,2024-04-30 00:04:59,interaction,Café,Student,00:00:49,Interacted with Student
+Isabelly Gonçalves,1,2024-04-30 00:06:19,interaction,Café,Chair2,00:01:20,Interacted with Chair2
+Isabelly Gonçalves,1,2024-05-01 00:01:05,interaction,Café,Student,00:01:05,Interacted with Student
+Isabelly Gonçalves,1,2024-05-01 00:02:17,interaction,Café,Chair2,00:01:12,Interacted with Chair2
+Isabelly Gonçalves,1,2024-05-03 00:00:37,interaction,Café,Student,00:00:37,Interacted with Student
+Isabelly Gonçalves,1,2024-05-03 00:05:00,movement,Classroom,,00:04:23,Moved from Café to Classroom
+Isabelly Gonçalves,1,2024-05-03 00:05:34,interaction,Classroom,Computer,00:00:34,Interacted with Computer
+Isabelly Gonçalves,1,2024-05-06 00:00:31,interaction,Classroom,Computer,00:00:31,Interacted with Computer
+Isabelly Gonçalves,1,2024-05-06 00:01:32,interaction,Classroom,Desk,00:01:01,Interacted with Desk
+Isabelly Gonçalves,1,2024-05-07 00:04:13,movement,Café,,00:04:13,Moved from Classroom to Café
+Isabelly Gonçalves,1,2024-05-07 00:05:40,interaction,Café,Table,00:01:27,Interacted with Table
+Isabelly Gonçalves,1,2024-05-07 00:06:25,interaction,Café,Chair2,00:00:45,Interacted with Chair2
+Isabelly Gonçalves,1,2024-05-09 00:03:20,movement,Classroom,,00:03:20,Moved from Café to Classroom
+Isabelly Gonçalves,1,2024-05-09 00:04:12,interaction,Classroom,Book,00:00:52,Interacted with Book
+Isabelly Gonçalves,1,2024-05-09 00:05:27,interaction,Classroom,Computer,00:01:15,Interacted with Computer
+Isabelly Gonçalves,1,2024-05-10 00:01:41,movement,Auditorium,,00:01:41,Moved from Classroom to Auditorium
+Isabelly Gonçalves,1,2024-05-10 00:02:20,interaction,Auditorium,Hand,00:00:39,Interacted with Hand
+Isabelly Gonçalves,1,2024-05-10 00:03:16,interaction,Auditorium,Hand,00:00:56,Interacted with Hand
+Isabelly Gonçalves,1,2024-05-11 00:00:37,interaction,Auditorium,Hand,00:00:37,Interacted with Hand
+Isabelly Gonçalves,1,2024-05-11 00:01:47,interaction,Auditorium,Chair1,00:01:10,Interacted with Chair1
+Isabelly Gonçalves,1,2024-05-12 00:04:11,movement,Café,,00:04:11,Moved from Auditorium to Café
+Isabelly Gonçalves,1,2024-05-12 00:05:24,interaction,Café,Student,00:01:13,Interacted with Student
+Isabelly Gonçalves,1,2024-05-12 00:10:08,movement,Classroom,,00:04:44,Moved from Café to Classroom
+Isabelly Gonçalves,1,2024-05-12 00:11:36,interaction,Classroom,Book,00:01:28,Interacted with Book
+Isabelly Gonçalves,1,2024-05-15 00:03:42,movement,Café,,00:03:42,Moved from Classroom to Café
+Isabelly Gonçalves,1,2024-05-15 00:04:13,interaction,Café,Chair2,00:00:31,Interacted with Chair2
+Isabelly Gonçalves,1,2024-05-15 00:06:56,movement,Auditorium,,00:02:43,Moved from Café to Auditorium
+Isabelly Gonçalves,1,2024-05-15 00:08:15,interaction,Auditorium,Screen,00:01:19,Interacted with Screen
+Isabelly Gonçalves,1,2024-05-16 00:01:25,interaction,Auditorium,Screen,00:01:25,Interacted with Screen
+Isabelly Gonçalves,1,2024-05-16 00:01:59,interaction,Auditorium,Hand,00:00:34,Interacted with Hand
+Isabelly Gonçalves,1,2024-05-17 00:01:53,movement,Café,,00:01:53,Moved from Auditorium to Café
+Isabelly Gonçalves,1,2024-05-17 00:02:46,interaction,Café,Chair2,00:00:53,Interacted with Chair2
+Isabelly Gonçalves,1,2024-05-17 00:05:00,movement,Classroom,,00:02:14,Moved from Café to Classroom
+Isabelly Gonçalves,1,2024-05-17 00:06:06,interaction,Classroom,Desk,00:01:06,Interacted with Desk
+Isabelly Gonçalves,1,2024-05-18 00:00:33,interaction,Classroom,Computer,00:00:33,Interacted with Computer
+Isabelly Gonçalves,1,2024-05-18 00:01:09,interaction,Classroom,Computer,00:00:36,Interacted with Computer
+Isabelly Gonçalves,1,2024-05-22 00:03:49,movement,Café,,00:03:49,Moved from Classroom to Café
+Isabelly Gonçalves,1,2024-05-22 00:04:54,interaction,Café,Table,00:01:05,Interacted with Table
+Isabelly Gonçalves,1,2024-05-22 00:05:57,interaction,Café,Student,00:01:03,Interacted with Student
+Isabelly Gonçalves,1,2024-05-24 00:01:22,movement,Auditorium,,00:01:22,Moved from Café to Auditorium
+Isabelly Gonçalves,1,2024-05-24 00:02:47,interaction,Auditorium,Hand,00:01:25,Interacted with Hand
+Isabelly Gonçalves,1,2024-05-24 00:03:30,interaction,Auditorium,Hand,00:00:43,Interacted with Hand
+Isabelly Gonçalves,1,2024-05-25 00:01:02,interaction,Auditorium,Screen,00:01:02,Interacted with Screen
+Isabelly Gonçalves,1,2024-05-25 00:02:09,interaction,Auditorium,Hand,00:01:07,Interacted with Hand
+Isabelly Gonçalves,1,2024-05-27 00:02:24,movement,Café,,00:02:24,Moved from Auditorium to Café
+Isabelly Gonçalves,1,2024-05-27 00:03:02,interaction,Café,Chair2,00:00:38,Interacted with Chair2
+Isabelly Gonçalves,1,2024-05-27 00:03:57,interaction,Café,Table,00:00:55,Interacted with Table
+Isabelly Gonçalves,1,2024-06-13 00:03:29,interaction,Auditorium,Chair1,00:00:47,Interacted with Chair1
+Isabelly Gonçalves,1,2024-06-14 00:01:21,movement,Café,,00:01:21,Moved from Auditorium to Café
+Isabelly Gonçalves,1,2024-06-14 00:02:08,interaction,Café,Chair2,00:00:47,Interacted with Chair2
+Isabelly Gonçalves,1,2024-06-14 00:05:32,movement,Classroom,,00:03:24,Moved from Café to Classroom
+Isabelly Gonçalves,1,2024-06-14 00:06:39,interaction,Classroom,Computer,00:01:07,Interacted with Computer
+Isabelly Gonçalves,1,2024-06-18 00:00:38,interaction,Classroom,Book,00:00:38,Interacted with Book
+Isabelly Gonçalves,1,2024-06-18 00:01:59,interaction,Classroom,Desk,00:01:21,Interacted with Desk
+Isabelly Gonçalves,1,2024-06-19 00:04:37,movement,Café,,00:04:37,Moved from Classroom to Café
+Isabelly Gonçalves,1,2024-06-19 00:05:19,interaction,Café,Student,00:00:42,Interacted with Student
+Isabelly Gonçalves,1,2024-06-19 00:06:11,interaction,Café,Chair2,00:00:52,Interacted with Chair2
+Isabelly Gonçalves,1,2024-06-20 00:01:29,interaction,Café,Chair2,00:01:29,Interacted with Chair2
+Isabelly Gonçalves,1,2024-06-20 00:02:03,interaction,Café,Student,00:00:34,Interacted with Student
+Isabelly Gonçalves,1,2024-06-26 00:00:36,interaction,Café,Table,00:00:36,Interacted with Table
+Isabelly Gonçalves,1,2024-06-26 00:03:44,movement,Classroom,,00:03:08,Moved from Café to Classroom
+Isabelly Gonçalves,1,2024-06-26 00:04:45,interaction,Classroom,Book,00:01:01,Interacted with Book
+Isabelly Gonçalves,1,2024-06-27 00:00:34,interaction,Classroom,Book,00:00:34,Interacted with Book
+Isabelly Gonçalves,1,2024-06-27 00:02:23,movement,Auditorium,,00:01:49,Moved from Classroom to Auditorium
+Isabelly Gonçalves,1,2024-06-27 00:03:02,interaction,Auditorium,Chair1,00:00:39,Interacted with Chair1
+Isabelly Gonçalves,1,2024-07-04 00:00:42,interaction,Auditorium,Hand,00:00:42,Interacted with Hand
+Isabelly Gonçalves,1,2024-07-04 00:02:35,movement,Classroom,,00:01:53,Moved from Auditorium to Classroom
+Isabelly Gonçalves,1,2024-07-04 00:03:25,interaction,Classroom,Book,00:00:50,Interacted with Book
+Isabelly Gonçalves,1,2024-07-05 00:00:37,interaction,Classroom,Desk,00:00:37,Interacted with Desk
+Isabelly Gonçalves,1,2024-07-05 00:01:20,interaction,Classroom,Book,00:00:43,Interacted with Book
+Isabelly Gonçalves,1,2024-07-07 00:03:15,movement,Café,,00:03:15,Moved from Classroom to Café
+Isabelly Gonçalves,1,2024-07-07 00:04:45,interaction,Café,Student,00:01:30,Interacted with Student
+Isabelly Gonçalves,1,2024-07-07 00:06:04,interaction,Café,Student,00:01:19,Interacted with Student
+Isabelly Gonçalves,1,2024-07-11 00:04:10,movement,Auditorium,,00:04:10,Moved from Café to Auditorium
+Isabelly Gonçalves,1,2024-07-11 00:04:56,interaction,Auditorium,Hand,00:00:46,Interacted with Hand
+Isabelly Gonçalves,1,2024-07-11 00:07:13,movement,Café,,00:02:17,Moved from Auditorium to Café
+Isabelly Gonçalves,1,2024-07-11 00:07:44,interaction,Café,Chair2,00:00:31,Interacted with Chair2
+Isabelly Gonçalves,1,2024-07-13 00:04:48,movement,Classroom,,00:04:48,Moved from Café to Classroom
+Isabelly Gonçalves,1,2024-07-13 00:05:24,interaction,Classroom,Desk,00:00:36,Interacted with Desk
+Isabelly Gonçalves,1,2024-07-13 00:06:22,interaction,Classroom,Book,00:00:58,Interacted with Book
+Isabelly Gonçalves,1,2024-07-14 00:00:56,interaction,Classroom,Computer,00:00:56,Interacted with Computer
+Isabelly Gonçalves,1,2024-07-14 00:04:33,movement,Café,,00:03:37,Moved from Classroom to Café
+Isabelly Gonçalves,1,2024-07-14 00:05:56,interaction,Café,Table,00:01:23,Interacted with Table
+Isabelly Gonçalves,1,2024-07-15 00:04:29,movement,Classroom,,00:04:29,Moved from Café to Classroom
+Isabelly Gonçalves,1,2024-07-15 00:05:37,interaction,Classroom,Computer,00:01:08,Interacted with Computer
+Isabelly Gonçalves,1,2024-07-15 00:07:00,interaction,Classroom,Computer,00:01:23,Interacted with Computer
+Isabelly Gonçalves,1,2024-07-17 00:01:01,interaction,Classroom,Computer,00:01:01,Interacted with Computer
+Isabelly Gonçalves,1,2024-07-17 00:02:06,movement,Café,,00:01:05,Moved from Classroom to Café
+Isabelly Gonçalves,1,2024-07-17 00:03:10,interaction,Café,Table,00:01:04,Interacted with Table
+Maria Júlia Silveira,1,2024-01-21 00:07:57,movement,Classroom,,00:04:17,Moved from Café to Classroom
+Maria Júlia Silveira,1,2024-01-21 00:09:23,interaction,Classroom,Book,00:01:26,Interacted with Book
+Maria Júlia Silveira,1,2024-01-23 00:03:17,movement,Café,,00:03:17,Moved from Classroom to Café
+Maria Júlia Silveira,1,2024-01-23 00:04:38,interaction,Café,Chair2,00:01:21,Interacted with Chair2
+Maria Júlia Silveira,1,2024-01-23 00:05:13,interaction,Café,Student,00:00:35,Interacted with Student
+Maria Júlia Silveira,1,2024-01-27 00:03:49,movement,Classroom,,00:03:49,Moved from Café to Classroom
+Maria Júlia Silveira,1,2024-01-27 00:04:56,interaction,Classroom,Computer,00:01:07,Interacted with Computer
+Maria Júlia Silveira,1,2024-01-27 00:07:19,movement,Café,,00:02:23,Moved from Classroom to Café
+Maria Júlia Silveira,1,2024-01-27 00:08:03,interaction,Café,Chair2,00:00:44,Interacted with Chair2
+Maria Júlia Silveira,1,2024-01-29 00:01:51,movement,Auditorium,,00:01:51,Moved from Café to Auditorium
+Maria Júlia Silveira,1,2024-01-29 00:02:49,interaction,Auditorium,Hand,00:00:58,Interacted with Hand
+Maria Júlia Silveira,1,2024-01-29 00:03:19,interaction,Auditorium,Chair1,00:00:30,Interacted with Chair1
+Maria Júlia Silveira,1,2024-01-30 00:00:39,interaction,Auditorium,Hand,00:00:39,Interacted with Hand
+Maria Júlia Silveira,1,2024-01-30 00:01:35,interaction,Auditorium,Chair1,00:00:56,Interacted with Chair1
+Maria Júlia Silveira,1,2024-02-01 00:02:53,movement,Café,,00:02:53,Moved from Auditorium to Café
+Maria Júlia Silveira,1,2024-02-01 00:03:48,interaction,Café,Student,00:00:55,Interacted with Student
+Maria Júlia Silveira,1,2024-02-01 00:08:47,movement,Classroom,,00:04:59,Moved from Café to Classroom
+Maria Júlia Silveira,1,2024-02-01 00:09:27,interaction,Classroom,Desk,00:00:40,Interacted with Desk
+Maria Júlia Silveira,1,2024-02-02 00:04:04,movement,Auditorium,,00:04:04,Moved from Classroom to Auditorium
+Maria Júlia Silveira,1,2024-02-02 00:04:59,interaction,Auditorium,Hand,00:00:55,Interacted with Hand
+Maria Júlia Silveira,1,2024-02-02 00:06:50,movement,Café,,00:01:51,Moved from Auditorium to Café
+Maria Júlia Silveira,1,2024-02-02 00:08:20,interaction,Café,Table,00:01:30,Interacted with Table
+Maria Júlia Silveira,1,2024-02-05 00:01:07,interaction,Café,Student,00:01:07,Interacted with Student
+Maria Júlia Silveira,1,2024-02-05 00:02:25,interaction,Café,Chair2,00:01:18,Interacted with Chair2
+Maria Júlia Silveira,1,2024-02-06 00:00:47,interaction,Café,Student,00:00:47,Interacted with Student
+Maria Júlia Silveira,1,2024-02-06 00:02:17,movement,Classroom,,00:01:30,Moved from Café to Classroom
+Maria Júlia Silveira,1,2024-02-06 00:03:34,interaction,Classroom,Desk,00:01:17,Interacted with Desk
+Maria Júlia Silveira,1,2024-02-08 00:01:24,movement,Auditorium,,00:01:24,Moved from Classroom to Auditorium
+Maria Júlia Silveira,1,2024-02-08 00:02:38,interaction,Auditorium,Screen,00:01:14,Interacted with Screen
+Maria Júlia Silveira,1,2024-02-08 00:06:42,movement,Classroom,,00:04:04,Moved from Auditorium to Classroom
+Maria Júlia Silveira,1,2024-02-08 00:07:44,interaction,Classroom,Book,00:01:02,Interacted with Book
+Maria Júlia Silveira,1,2024-02-11 00:03:45,movement,Auditorium,,00:03:45,Moved from Classroom to Auditorium
+Maria Júlia Silveira,1,2024-02-11 00:05:05,interaction,Auditorium,Chair1,00:01:20,Interacted with Chair1
+Maria Júlia Silveira,1,2024-02-11 00:06:20,interaction,Auditorium,Chair1,00:01:15,Interacted with Chair1
+Maria Júlia Silveira,1,2024-02-17 00:03:51,movement,Classroom,,00:03:51,Moved from Auditorium to Classroom
+Maria Júlia Silveira,1,2024-02-17 00:04:54,interaction,Classroom,Book,00:01:03,Interacted with Book
+Maria Júlia Silveira,1,2024-02-17 00:08:50,movement,Auditorium,,00:03:56,Moved from Classroom to Auditorium
+Maria Júlia Silveira,1,2024-02-17 00:09:24,interaction,Auditorium,Screen,00:00:34,Interacted with Screen
+Maria Júlia Silveira,1,2024-02-19 00:02:48,movement,Café,,00:02:48,Moved from Auditorium to Café
+Maria Júlia Silveira,1,2024-02-19 00:03:29,interaction,Café,Student,00:00:41,Interacted with Student
+Maria Júlia Silveira,1,2024-02-19 00:04:20,interaction,Café,Chair2,00:00:51,Interacted with Chair2
+Maria Júlia Silveira,1,2024-02-24 00:01:05,interaction,Café,Chair2,00:01:05,Interacted with Chair2
+Maria Júlia Silveira,1,2024-02-24 00:04:42,movement,Auditorium,,00:03:37,Moved from Café to Auditorium
+Maria Júlia Silveira,1,2024-02-24 00:05:44,interaction,Auditorium,Chair1,00:01:02,Interacted with Chair1
+Maria Júlia Silveira,1,2024-02-25 00:02:47,movement,Classroom,,00:02:47,Moved from Auditorium to Classroom
+Maria Júlia Silveira,1,2024-03-02 00:06:14,movement,Auditorium,,00:04:01,Moved from Classroom to Auditorium
+Maria Júlia Silveira,1,2024-03-02 00:06:52,interaction,Auditorium,Hand,00:00:38,Interacted with Hand
+Maria Júlia Silveira,1,2024-03-03 00:01:34,movement,Classroom,,00:01:34,Moved from Auditorium to Classroom
+Maria Júlia Silveira,1,2024-03-03 00:02:44,interaction,Classroom,Desk,00:01:10,Interacted with Desk
+Maria Júlia Silveira,1,2024-03-03 00:07:41,movement,Café,,00:04:57,Moved from Classroom to Café
+Maria Júlia Silveira,1,2024-03-03 00:09:10,interaction,Café,Chair2,00:01:29,Interacted with Chair2
+Maria Júlia Silveira,1,2024-03-04 00:01:10,interaction,Café,Student,00:01:10,Interacted with Student
+Maria Júlia Silveira,1,2024-03-04 00:02:16,interaction,Café,Table,00:01:06,Interacted with Table
+Maria Júlia Silveira,1,2024-03-07 00:02:26,movement,Auditorium,,00:02:26,Moved from Café to Auditorium
+Maria Júlia Silveira,1,2024-03-07 00:03:00,interaction,Auditorium,Chair1,00:00:34,Interacted with Chair1
+Maria Júlia Silveira,1,2024-03-07 00:03:52,interaction,Auditorium,Screen,00:00:52,Interacted with Screen
+Maria Júlia Silveira,1,2024-03-08 00:04:57,movement,Café,,00:04:57,Moved from Auditorium to Café
+Maria Júlia Silveira,1,2024-03-08 00:05:52,interaction,Café,Table,00:00:55,Interacted with Table
+Maria Júlia Silveira,1,2024-03-08 00:09:27,movement,Classroom,,00:03:35,Moved from Café to Classroom
+Maria Júlia Silveira,1,2024-03-08 00:10:22,interaction,Classroom,Computer,00:00:55,Interacted with Computer
+Maria Júlia Silveira,1,2024-03-10 00:02:05,movement,Café,,00:02:05,Moved from Classroom to Café
+Maria Júlia Silveira,1,2024-03-10 00:03:01,interaction,Café,Chair2,00:00:56,Interacted with Chair2
+Maria Júlia Silveira,1,2024-03-10 00:07:56,movement,Auditorium,,00:04:55,Moved from Café to Auditorium
+Maria Júlia Silveira,1,2024-03-10 00:09:12,interaction,Auditorium,Chair1,00:01:16,Interacted with Chair1
+Maria Júlia Silveira,1,2024-03-11 00:03:46,movement,Café,,00:03:46,Moved from Auditorium to Café
+Maria Júlia Silveira,1,2024-03-11 00:04:34,interaction,Café,Table,00:00:48,Interacted with Table
+Maria Júlia Silveira,1,2024-03-11 00:07:47,movement,Auditorium,,00:03:13,Moved from Café to Auditorium
+Maria Júlia Silveira,1,2024-03-11 00:09:06,interaction,Auditorium,Hand,00:01:19,Interacted with Hand
+Maria Júlia Silveira,1,2024-03-14 00:01:26,interaction,Auditorium,Chair1,00:01:26,Interacted with Chair1
+Maria Júlia Silveira,1,2024-03-14 00:05:39,movement,Classroom,,00:04:13,Moved from Auditorium to Classroom
+Maria Júlia Silveira,1,2024-03-14 00:06:37,interaction,Classroom,Desk,00:00:58,Interacted with Desk
+Maria Júlia Silveira,1,2024-03-15 00:04:25,movement,Café,,00:04:25,Moved from Classroom to Café
+Maria Júlia Silveira,1,2024-03-15 00:05:49,interaction,Café,Table,00:01:24,Interacted with Table
+Maria Júlia Silveira,1,2024-03-15 00:06:34,interaction,Café,Table,00:00:45,Interacted with Table
+Maria Júlia Silveira,1,2024-03-17 00:00:51,interaction,Café,Table,00:00:51,Interacted with Table
+Maria Júlia Silveira,1,2024-03-17 00:05:12,movement,Auditorium,,00:04:21,Moved from Café to Auditorium
+Maria Júlia Silveira,1,2024-03-17 00:06:37,interaction,Auditorium,Chair1,00:01:25,Interacted with Chair1
+Maria Júlia Silveira,1,2024-03-22 00:00:41,interaction,Auditorium,Screen,00:00:41,Interacted with Screen
+Maria Júlia Silveira,1,2024-03-22 00:02:01,interaction,Auditorium,Chair1,00:01:20,Interacted with Chair1
+Maria Júlia Silveira,1,2024-03-24 00:02:17,movement,Classroom,,00:02:17,Moved from Auditorium to Classroom
+Maria Júlia Silveira,1,2024-03-24 00:03:26,interaction,Classroom,Book,00:01:09,Interacted with Book
+Maria Júlia Silveira,1,2024-03-24 00:05:40,movement,Auditorium,,00:02:14,Moved from Classroom to Auditorium
+Maria Júlia Silveira,1,2024-03-24 00:07:07,interaction,Auditorium,Hand,00:01:27,Interacted with Hand
+Maria Júlia Silveira,1,2024-03-25 00:03:46,movement,Classroom,,00:03:46,Moved from Auditorium to Classroom
+Maria Júlia Silveira,1,2024-03-25 00:05:15,interaction,Classroom,Computer,00:01:29,Interacted with Computer
+Maria Júlia Silveira,1,2024-03-25 00:06:31,interaction,Classroom,Computer,00:01:16,Interacted with Computer
+Maria Júlia Silveira,1,2024-03-27 00:00:59,interaction,Classroom,Computer,00:00:59,Interacted with Computer
+Maria Júlia Silveira,1,2024-03-27 00:04:26,movement,Café,,00:03:27,Moved from Classroom to Café
+Maria Júlia Silveira,1,2024-03-27 00:05:00,interaction,Café,Chair2,00:00:34,Interacted with Chair2
+Maria Júlia Silveira,1,2024-03-28 00:00:56,interaction,Café,Student,00:00:56,Interacted with Student
+Maria Júlia Silveira,1,2024-03-28 00:05:44,movement,Auditorium,,00:04:48,Moved from Café to Auditorium
+Maria Júlia Silveira,1,2024-03-28 00:06:34,interaction,Auditorium,Screen,00:00:50,Interacted with Screen
+Maria Júlia Silveira,1,2024-03-29 00:03:54,movement,Café,,00:03:54,Moved from Auditorium to Café
+Maria Júlia Silveira,1,2024-03-29 00:05:15,interaction,Café,Table,00:01:21,Interacted with Table
+Maria Júlia Silveira,1,2024-03-29 00:06:19,interaction,Café,Student,00:01:04,Interacted with Student
+Maria Júlia Silveira,1,2024-03-30 00:01:54,movement,Auditorium,,00:01:54,Moved from Café to Auditorium
+Maria Júlia Silveira,1,2024-03-30 00:03:01,interaction,Auditorium,Chair1,00:01:07,Interacted with Chair1
+Maria Júlia Silveira,1,2024-03-30 00:04:04,interaction,Auditorium,Screen,00:01:03,Interacted with Screen
+Maria Júlia Silveira,1,2024-03-31 00:01:55,movement,Classroom,,00:01:55,Moved from Auditorium to Classroom
+Maria Júlia Silveira,1,2024-03-31 00:03:13,interaction,Classroom,Book,00:01:18,Interacted with Book
+Maria Júlia Silveira,1,2024-03-31 00:04:10,interaction,Classroom,Book,00:00:57,Interacted with Book
+Maria Júlia Silveira,1,2024-04-01 00:01:09,interaction,Classroom,Book,00:01:09,Interacted with Book
+Maria Júlia Silveira,1,2024-04-01 00:03:56,movement,Café,,00:02:47,Moved from Classroom to Café
+Maria Júlia Silveira,1,2024-04-01 00:04:41,interaction,Café,Student,00:00:45,Interacted with Student
+Maria Júlia Silveira,1,2024-04-03 00:01:56,movement,Classroom,,00:01:56,Moved from Café to Classroom
+Maria Júlia Silveira,1,2024-04-03 00:03:20,interaction,Classroom,Desk,00:01:24,Interacted with Desk
+Maria Júlia Silveira,1,2024-04-03 00:07:30,movement,Café,,00:04:10,Moved from Classroom to Café
+Maria Júlia Silveira,1,2024-04-03 00:08:48,interaction,Café,Student,00:01:18,Interacted with Student
+Maria Júlia Silveira,1,2024-04-05 00:00:35,interaction,Café,Student,00:00:35,Interacted with Student
+Maria Júlia Silveira,1,2024-04-05 00:04:38,movement,Classroom,,00:04:03,Moved from Café to Classroom
+Maria Júlia Silveira,1,2024-04-05 00:05:36,interaction,Classroom,Computer,00:00:58,Interacted with Computer
+Maria Júlia Silveira,1,2024-04-17 00:06:57,movement,Classroom,,00:03:10,Moved from Auditorium to Classroom
+Maria Júlia Silveira,1,2024-04-17 00:07:51,interaction,Classroom,Computer,00:00:54,Interacted with Computer
+Maria Júlia Silveira,1,2024-04-18 00:03:34,movement,Auditorium,,00:03:34,Moved from Classroom to Auditorium
+Maria Júlia Silveira,1,2024-04-18 00:04:28,interaction,Auditorium,Chair1,00:00:54,Interacted with Chair1
+Maria Júlia Silveira,1,2024-04-18 00:09:11,movement,Classroom,,00:04:43,Moved from Auditorium to Classroom
+Maria Júlia Silveira,1,2024-04-18 00:10:09,interaction,Classroom,Book,00:00:58,Interacted with Book
+Maria Júlia Silveira,1,2024-04-21 00:03:17,movement,Café,,00:03:17,Moved from Classroom to Café
+Maria Júlia Silveira,1,2024-04-21 00:04:41,interaction,Café,Table,00:01:24,Interacted with Table
+Maria Júlia Silveira,1,2024-04-21 00:05:59,interaction,Café,Table,00:01:18,Interacted with Table
+Maria Júlia Silveira,1,2024-04-22 00:04:24,movement,Auditorium,,00:04:24,Moved from Café to Auditorium
+Maria Júlia Silveira,1,2024-04-22 00:05:38,interaction,Auditorium,Hand,00:01:14,Interacted with Hand
+Maria Júlia Silveira,1,2024-04-22 00:07:16,movement,Café,,00:01:38,Moved from Auditorium to Café
+Maria Júlia Silveira,1,2024-04-22 00:08:02,interaction,Café,Table,00:00:46,Interacted with Table
+Maria Júlia Silveira,1,2024-04-23 00:01:53,movement,Classroom,,00:01:53,Moved from Café to Classroom
+Maria Júlia Silveira,1,2024-04-23 00:03:12,interaction,Classroom,Computer,00:01:19,Interacted with Computer
+Maria Júlia Silveira,1,2024-04-23 00:05:42,movement,Café,,00:02:30,Moved from Classroom to Café
+Maria Júlia Silveira,1,2024-04-23 00:06:36,interaction,Café,Chair2,00:00:54,Interacted with Chair2
+Maria Júlia Silveira,1,2024-04-25 00:03:09,movement,Auditorium,,00:03:09,Moved from Café to Auditorium
+Maria Júlia Silveira,1,2024-04-25 00:04:18,interaction,Auditorium,Chair1,00:01:09,Interacted with Chair1
+Maria Júlia Silveira,1,2024-04-25 00:08:59,movement,Classroom,,00:04:41,Moved from Auditorium to Classroom
+Maria Júlia Silveira,1,2024-04-25 00:10:00,interaction,Classroom,Book,00:01:01,Interacted with Book
+Maria Júlia Silveira,1,2024-04-26 00:00:39,interaction,Classroom,Computer,00:00:39,Interacted with Computer
+Maria Júlia Silveira,1,2024-04-26 00:02:58,movement,Café,,00:02:19,Moved from Classroom to Café
+Maria Júlia Silveira,1,2024-04-26 00:03:31,interaction,Café,Chair2,00:00:33,Interacted with Chair2
+Maria Júlia Silveira,1,2024-04-27 00:00:51,interaction,Café,Table,00:00:51,Interacted with Table
+Maria Júlia Silveira,1,2024-04-27 00:05:05,movement,Auditorium,,00:04:14,Moved from Café to Auditorium
+Maria Júlia Silveira,1,2024-04-27 00:06:22,interaction,Auditorium,Hand,00:01:17,Interacted with Hand
+Maria Júlia Silveira,1,2024-04-30 00:03:48,movement,Classroom,,00:03:48,Moved from Auditorium to Classroom
+Maria Júlia Silveira,1,2024-04-30 00:05:14,interaction,Classroom,Book,00:01:26,Interacted with Book
+Maria Júlia Silveira,1,2024-04-30 00:06:40,interaction,Classroom,Book,00:01:26,Interacted with Book
+Maria Júlia Silveira,1,2024-05-01 00:04:30,movement,Café,,00:04:30,Moved from Classroom to Café
+Maria Júlia Silveira,1,2024-05-01 00:05:19,interaction,Café,Chair2,00:00:49,Interacted with Chair2
+Maria Júlia Silveira,1,2024-05-01 00:05:59,interaction,Café,Student,00:00:40,Interacted with Student
+Maria Júlia Silveira,1,2024-05-05 00:04:17,movement,Auditorium,,00:04:17,Moved from Café to Auditorium
+Maria Júlia Silveira,1,2024-05-05 00:04:54,interaction,Auditorium,Hand,00:00:37,Interacted with Hand
+Maria Júlia Silveira,1,2024-05-05 00:05:32,interaction,Auditorium,Hand,00:00:38,Interacted with Hand
+Maria Júlia Silveira,1,2024-05-06 00:01:09,interaction,Auditorium,Chair1,00:01:09,Interacted with Chair1
+Maria Júlia Silveira,1,2024-05-06 00:02:25,interaction,Auditorium,Screen,00:01:16,Interacted with Screen
+Maria Júlia Silveira,1,2024-05-07 00:04:14,movement,Café,,00:04:14,Moved from Auditorium to Café
+Maria Júlia Silveira,1,2024-05-07 00:05:33,interaction,Café,Student,00:01:19,Interacted with Student
+Maria Júlia Silveira,1,2024-05-07 00:06:24,interaction,Café,Student,00:00:51,Interacted with Student
+Maria Júlia Silveira,1,2024-05-11 00:01:02,interaction,Café,Table,00:01:02,Interacted with Table
+Maria Júlia Silveira,1,2024-05-11 00:02:22,interaction,Café,Student,00:01:20,Interacted with Student
+Maria Júlia Silveira,1,2024-05-13 00:01:07,interaction,Café,Chair2,00:01:07,Interacted with Chair2
+Maria Júlia Silveira,1,2024-05-13 00:05:25,movement,Auditorium,,00:04:18,Moved from Café to Auditorium
+Maria Júlia Silveira,1,2024-05-13 00:06:33,interaction,Auditorium,Screen,00:01:08,Interacted with Screen
+Maria Júlia Silveira,1,2024-05-14 00:04:59,movement,Café,,00:04:59,Moved from Auditorium to Café
+Maria Júlia Silveira,1,2024-05-14 00:05:53,interaction,Café,Table,00:00:54,Interacted with Table
+Maria Júlia Silveira,1,2024-05-14 00:08:28,movement,Auditorium,,00:02:35,Moved from Café to Auditorium
+Maria Júlia Silveira,1,2024-05-14 00:09:55,interaction,Auditorium,Screen,00:01:27,Interacted with Screen
+Maria Júlia Silveira,1,2024-05-17 00:01:16,interaction,Auditorium,Hand,00:01:16,Interacted with Hand
+Maria Júlia Silveira,1,2024-05-17 00:04:15,movement,Classroom,,00:02:59,Moved from Auditorium to Classroom
+Maria Júlia Silveira,1,2024-05-17 00:05:27,interaction,Classroom,Computer,00:01:12,Interacted with Computer
+Maria Júlia Silveira,1,2024-05-19 00:01:00,interaction,Classroom,Book,00:01:00,Interacted with Book
+Maria Júlia Silveira,1,2024-05-19 00:02:26,interaction,Classroom,Book,00:01:26,Interacted with Book
+Maria Júlia Silveira,1,2024-05-20 00:03:54,movement,Auditorium,,00:03:54,Moved from Classroom to Auditorium
+Maria Júlia Silveira,1,2024-05-20 00:04:27,interaction,Auditorium,Hand,00:00:33,Interacted with Hand
+Maria Júlia Silveira,1,2024-05-20 00:04:57,interaction,Auditorium,Hand,00:00:30,Interacted with Hand
+Maria Júlia Silveira,1,2024-05-22 00:04:10,movement,Café,,00:04:10,Moved from Auditorium to Café
+Maria Júlia Silveira,1,2024-05-22 00:04:53,interaction,Café,Chair2,00:00:43,Interacted with Chair2
+Maria Júlia Silveira,1,2024-05-22 00:05:58,interaction,Café,Chair2,00:01:05,Interacted with Chair2
+Maria Júlia Silveira,1,2024-05-24 00:01:10,interaction,Café,Table,00:01:10,Interacted with Table
+Maria Júlia Silveira,1,2024-05-24 00:01:41,interaction,Café,Table,00:00:31,Interacted with Table
+Maria Júlia Silveira,1,2024-05-27 00:01:14,movement,Classroom,,00:01:14,Moved from Café to Classroom
+Maria Júlia Silveira,1,2024-05-27 00:02:38,interaction,Classroom,Desk,00:01:24,Interacted with Desk
+Maria Júlia Silveira,1,2024-05-27 00:03:57,interaction,Classroom,Book,00:01:19,Interacted with Book
+Maria Júlia Silveira,1,2024-05-28 00:00:31,interaction,Classroom,Book,00:00:31,Interacted with Book
+Maria Júlia Silveira,1,2024-05-28 00:01:30,interaction,Classroom,Desk,00:00:59,Interacted with Desk
+Maria Júlia Silveira,1,2024-06-04 00:01:20,interaction,Classroom,Computer,00:01:20,Interacted with Computer
+Maria Júlia Silveira,1,2024-06-04 00:02:27,interaction,Classroom,Book,00:01:07,Interacted with Book
+Maria Júlia Silveira,1,2024-06-06 00:03:05,movement,Café,,00:03:05,Moved from Classroom to Café
+Maria Júlia Silveira,1,2024-06-06 00:03:41,interaction,Café,Chair2,00:00:36,Interacted with Chair2
+Maria Júlia Silveira,1,2024-06-06 00:04:55,interaction,Café,Chair2,00:01:14,Interacted with Chair2
+Maria Júlia Silveira,1,2024-06-07 00:01:16,interaction,Café,Table,00:01:16,Interacted with Table
+Maria Júlia Silveira,1,2024-06-07 00:04:56,movement,Auditorium,,00:03:40,Moved from Café to Auditorium
+Maria Júlia Silveira,1,2024-06-07 00:05:29,interaction,Auditorium,Hand,00:00:33,Interacted with Hand
+Maria Júlia Silveira,1,2024-06-09 00:01:03,movement,Classroom,,00:01:03,Moved from Auditorium to Classroom
+Maria Júlia Silveira,1,2024-06-09 00:02:08,interaction,Classroom,Desk,00:01:05,Interacted with Desk
+Maria Júlia Silveira,1,2024-06-09 00:03:02,interaction,Classroom,Book,00:00:54,Interacted with Book
+Maria Júlia Silveira,1,2024-06-10 00:03:58,movement,Auditorium,,00:03:58,Moved from Classroom to Auditorium
+Maria Júlia Silveira,1,2024-06-10 00:05:17,interaction,Auditorium,Chair1,00:01:19,Interacted with Chair1
+Maria Júlia Silveira,1,2024-06-10 00:08:28,movement,Classroom,,00:03:11,Moved from Auditorium to Classroom
+Maria Júlia Silveira,1,2024-06-10 00:09:05,interaction,Classroom,Desk,00:00:37,Interacted with Desk
+Maria Júlia Silveira,1,2024-06-14 00:01:09,interaction,Classroom,Book,00:01:09,Interacted with Book
+Maria Júlia Silveira,1,2024-06-14 00:02:10,interaction,Classroom,Book,00:01:01,Interacted with Book
+Maria Júlia Silveira,1,2024-06-15 00:01:05,interaction,Classroom,Desk,00:01:05,Interacted with Desk
+Maria Júlia Silveira,1,2024-06-15 00:02:10,interaction,Classroom,Desk,00:01:05,Interacted with Desk
+Maria Júlia Silveira,1,2024-06-19 00:00:45,interaction,Classroom,Desk,00:00:45,Interacted with Desk
+Maria Júlia Silveira,1,2024-06-19 00:02:19,movement,Café,,00:01:34,Moved from Classroom to Café
+Maria Júlia Silveira,1,2024-06-19 00:03:47,interaction,Café,Chair2,00:01:28,Interacted with Chair2
+Maria Júlia Silveira,1,2024-06-22 00:01:03,interaction,Café,Student,00:01:03,Interacted with Student
+Maria Júlia Silveira,1,2024-06-22 00:01:59,interaction,Café,Student,00:00:56,Interacted with Student
+Maria Júlia Silveira,1,2024-06-23 00:00:59,interaction,Café,Table,00:00:59,Interacted with Table
+Maria Júlia Silveira,1,2024-06-23 00:04:33,movement,Auditorium,,00:03:34,Moved from Café to Auditorium
+Maria Júlia Silveira,1,2024-06-23 00:05:22,interaction,Auditorium,Screen,00:00:49,Interacted with Screen
+Maria Júlia Silveira,1,2024-06-26 00:04:13,movement,Classroom,,00:04:13,Moved from Auditorium to Classroom
+Fernanda Sales,3,2024-06-19 00:17:22,interaction,Auditorium,Chair1,00:04:02,Interacted with Chair1
+Fernanda Sales,3,2024-06-19 00:21:46,interaction,Auditorium,Hand,00:04:24,Interacted with Hand
+Fernanda Sales,3,2024-06-20 00:03:27,interaction,Auditorium,Screen,00:03:27,Interacted with Screen
+Fernanda Sales,3,2024-06-20 00:06:42,interaction,Auditorium,Screen,00:03:15,Interacted with Screen
+Fernanda Sales,3,2024-06-20 00:11:40,interaction,Auditorium,Chair1,00:04:58,Interacted with Chair1
+Fernanda Sales,3,2024-06-20 00:15:59,interaction,Auditorium,Chair1,00:04:19,Interacted with Chair1
+Fernanda Sales,3,2024-06-25 00:07:14,movement,Classroom,,00:07:14,Moved from Auditorium to Classroom
+Fernanda Sales,3,2024-06-25 00:11:12,interaction,Classroom,Desk,00:03:58,Interacted with Desk
+Fernanda Sales,3,2024-06-25 00:15:10,interaction,Classroom,Desk,00:03:58,Interacted with Desk
+Fernanda Sales,3,2024-06-25 00:18:55,interaction,Classroom,Computer,00:03:45,Interacted with Computer
+Fernanda Sales,3,2024-06-25 00:23:39,interaction,Classroom,Desk,00:04:44,Interacted with Desk
+Fernanda Sales,3,2024-06-28 00:05:47,movement,Café,,00:05:47,Moved from Classroom to Café
+Fernanda Sales,3,2024-06-28 00:10:12,interaction,Café,Table,00:04:25,Interacted with Table
+Fernanda Sales,3,2024-06-28 00:19:04,movement,Classroom,,00:08:52,Moved from Café to Classroom
+Fernanda Sales,3,2024-06-28 00:22:27,interaction,Classroom,Computer,00:03:23,Interacted with Computer
+Fernanda Sales,3,2024-06-28 00:26:03,interaction,Classroom,Computer,00:03:36,Interacted with Computer
+Fernanda Sales,3,2024-06-28 00:34:43,movement,Auditorium,,00:08:40,Moved from Classroom to Auditorium
+Fernanda Sales,3,2024-06-28 00:39:07,interaction,Auditorium,Hand,00:04:24,Interacted with Hand
+Fernanda Sales,3,2024-06-29 00:04:42,interaction,Auditorium,Chair1,00:04:42,Interacted with Chair1
+Fernanda Sales,3,2024-06-29 00:08:06,interaction,Auditorium,Hand,00:03:24,Interacted with Hand
+Fernanda Sales,3,2024-06-29 00:11:32,interaction,Auditorium,Screen,00:03:26,Interacted with Screen
+Fernanda Sales,3,2024-06-29 00:14:58,interaction,Auditorium,Chair1,00:03:26,Interacted with Chair1
+Fernanda Sales,3,2024-06-30 00:03:47,interaction,Auditorium,Hand,00:03:47,Interacted with Hand
+Fernanda Sales,3,2024-06-30 00:08:08,interaction,Auditorium,Hand,00:04:21,Interacted with Hand
+Fernanda Sales,3,2024-06-30 00:11:54,interaction,Auditorium,Screen,00:03:46,Interacted with Screen
+Fernanda Sales,3,2024-06-30 00:15:46,interaction,Auditorium,Hand,00:03:52,Interacted with Hand
+Fernanda Sales,3,2024-07-01 00:03:06,interaction,Auditorium,Screen,00:03:06,Interacted with Screen
+Fernanda Sales,3,2024-07-01 00:07:09,interaction,Auditorium,Chair1,00:04:03,Interacted with Chair1
+Fernanda Sales,3,2024-07-01 00:11:30,interaction,Auditorium,Hand,00:04:21,Interacted with Hand
+Fernanda Sales,3,2024-07-01 00:15:14,interaction,Auditorium,Chair1,00:03:44,Interacted with Chair1
+Fernanda Sales,3,2024-07-02 00:04:00,interaction,Auditorium,Screen,00:04:00,Interacted with Screen
+Fernanda Sales,3,2024-07-02 00:08:43,interaction,Auditorium,Chair1,00:04:43,Interacted with Chair1
+Fernanda Sales,3,2024-07-02 00:13:30,interaction,Auditorium,Hand,00:04:47,Interacted with Hand
+Fernanda Sales,3,2024-07-02 00:21:25,movement,Café,,00:07:55,Moved from Auditorium to Café
+Fernanda Sales,3,2024-07-02 00:24:29,interaction,Café,Chair2,00:03:04,Interacted with Chair2
+Fernanda Sales,3,2024-07-05 00:04:39,interaction,Café,Table,00:04:39,Interacted with Table
+Fernanda Sales,3,2024-07-05 00:09:33,interaction,Café,Table,00:04:54,Interacted with Table
+Fernanda Sales,3,2024-07-05 00:13:14,interaction,Café,Table,00:03:41,Interacted with Table
+Fernanda Sales,3,2024-07-05 00:17:22,interaction,Café,Student,00:04:08,Interacted with Student
+Fernanda Sales,3,2024-07-07 00:04:55,interaction,Café,Chair2,00:04:55,Interacted with Chair2
+Fernanda Sales,3,2024-07-07 00:09:34,interaction,Café,Table,00:04:39,Interacted with Table
+Fernanda Sales,3,2024-07-07 00:13:24,interaction,Café,Table,00:03:50,Interacted with Table
+Fernanda Sales,3,2024-07-07 00:18:23,interaction,Café,Student,00:04:59,Interacted with Student
+Fernanda Sales,3,2024-07-10 00:04:58,interaction,Café,Student,00:04:58,Interacted with Student
+Fernanda Sales,3,2024-07-10 00:08:28,interaction,Café,Student,00:03:30,Interacted with Student
+Fernanda Sales,3,2024-07-10 00:11:41,interaction,Café,Student,00:03:13,Interacted with Student
+Fernanda Sales,3,2024-07-10 00:16:20,interaction,Café,Chair2,00:04:39,Interacted with Chair2
+Fernanda Sales,3,2024-07-11 00:03:36,interaction,Café,Student,00:03:36,Interacted with Student
+Fernanda Sales,3,2024-07-11 00:06:51,interaction,Café,Student,00:03:15,Interacted with Student
+Fernanda Sales,3,2024-07-11 00:09:57,interaction,Café,Table,00:03:06,Interacted with Table
+Fernanda Sales,3,2024-07-11 00:13:05,interaction,Café,Table,00:03:08,Interacted with Table
+Fernanda Sales,3,2024-07-12 00:09:32,movement,Classroom,,00:09:32,Moved from Café to Classroom
+Fernanda Sales,3,2024-07-12 00:13:08,interaction,Classroom,Book,00:03:36,Interacted with Book
+Fernanda Sales,3,2024-07-12 00:17:07,interaction,Classroom,Desk,00:03:59,Interacted with Desk
+Fernanda Sales,3,2024-07-12 00:21:41,interaction,Classroom,Desk,00:04:34,Interacted with Desk
+Fernanda Sales,3,2024-07-12 00:26:06,interaction,Classroom,Book,00:04:25,Interacted with Book
+Fernanda Sales,3,2024-07-13 00:03:18,interaction,Classroom,Computer,00:03:18,Interacted with Computer
+Fernanda Sales,3,2024-07-13 00:07:57,interaction,Classroom,Desk,00:04:39,Interacted with Desk
+Fernanda Sales,3,2024-07-13 00:17:12,movement,Café,,00:09:15,Moved from Classroom to Café
+Fernanda Sales,3,2024-07-13 00:21:51,interaction,Café,Table,00:04:39,Interacted with Table
+Fernanda Sales,3,2024-07-13 00:24:57,interaction,Café,Table,00:03:06,Interacted with Table
+Fernanda Sales,3,2024-07-14 00:03:50,interaction,Café,Student,00:03:50,Interacted with Student
+Fernanda Sales,3,2024-07-14 00:08:35,interaction,Café,Table,00:04:45,Interacted with Table
+Fernanda Sales,3,2024-07-14 00:13:14,interaction,Café,Chair2,00:04:39,Interacted with Chair2
+Fernanda Sales,3,2024-07-14 00:16:16,interaction,Café,Table,00:03:02,Interacted with Table
+Fernanda Sales,3,2024-07-15 00:03:07,interaction,Café,Student,00:03:07,Interacted with Student
+Fernanda Sales,3,2024-07-15 00:06:28,interaction,Café,Chair2,00:03:21,Interacted with Chair2
+Fernanda Sales,3,2024-07-15 00:15:14,movement,Auditorium,,00:08:46,Moved from Café to Auditorium
+Fernanda Sales,3,2024-07-15 00:18:30,interaction,Auditorium,Hand,00:03:16,Interacted with Hand
+Fernanda Sales,3,2024-07-15 00:21:35,interaction,Auditorium,Screen,00:03:05,Interacted with Screen
+Fernanda Sales,3,2024-07-17 00:05:50,movement,Café,,00:05:50,Moved from Auditorium to Café
+Fernanda Sales,3,2024-07-17 00:10:46,interaction,Café,Chair2,00:04:56,Interacted with Chair2
+Fernanda Sales,3,2024-07-17 00:13:49,interaction,Café,Table,00:03:03,Interacted with Table
+Fernanda Sales,3,2024-07-17 00:18:01,interaction,Café,Chair2,00:04:12,Interacted with Chair2
+Fernanda Sales,3,2024-07-17 00:21:43,interaction,Café,Table,00:03:42,Interacted with Table
+Fernanda Sales,3,2024-07-18 00:04:07,interaction,Café,Table,00:04:07,Interacted with Table
+Fernanda Sales,3,2024-07-18 00:07:27,interaction,Café,Chair2,00:03:20,Interacted with Chair2
+Fernanda Sales,3,2024-07-18 00:11:31,interaction,Café,Student,00:04:04,Interacted with Student
+Fernanda Sales,3,2024-07-18 00:15:14,interaction,Café,Table,00:03:43,Interacted with Table
